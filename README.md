@@ -53,9 +53,9 @@ __Materials__:
 
 __What to build__:
 - To do list
--Practice the following challenges:
-- <a href='https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting'>intermediate algorithm scripting</a>
-- <a href='https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects'>javascript algorithms and data structures projects
+- Practice the following challenges:
+ - <a href='https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting'>intermediate    algorithm scripting</a>
+ - <a href='https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects'>javascript algorithms and data structures projects
 
 
 
