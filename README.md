@@ -1,13 +1,7 @@
 # FE-Study-Group
 
-This documentation is to create a set of guidelines or milestones we expect candidates to get to before the end of their program.
 
-Target Individual profile: Candidate has a basic knowledge of HTML and CSS
-Time Duration: 3-months
-Learning method:  Onsite
-Field: Front end major
-
-<h2 align="center">Week 1</h2>
+#Week 1
 
 - Candidates with basic HTML and CSS should still focus on honing their skills in both technologies by building projects (doesn’t have to be some big)
 - Introduction to git 
@@ -20,7 +14,7 @@ __Materials__:
 - <a href='https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners'>Basic git</a>
 
 
-<h2 align="center">Week 2</h2>
+#Week 2
 
 - Semantics
 - Responsiveness
@@ -31,28 +25,23 @@ __Materials__:
 - <a href='https://learn.freecodecamp.org/responsive-web-design/css-grid'>css grid</a>
 
 
-__What to build__:<a href='https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects'>Any two of these projects</a>
+__What to build__:<a href='https://cdn.dribbble.com/users/757683/screenshots/6976861/downloads/Home_Style_02@1x.jpg'>Website to clone</a> 
 
-__Challenges you feel they’ll face__: 
-
-At this point They will be a need to put together what they have learned to build projects that will help demonstrate what they have learned so far, I will still recommend they reach out to seek advice or get unblocked.
-
-
-
-<h2 align="center">Week 3</h2>
+#Week 3
 __What to learn__: 
 JavaScript is an integral part of web development and it is indispensable when it comes to front-end development. After attaining the necessary HTML and CSS skills, it’s time to learn JS, Understand the fundamentals of programming variable assignments, conditional statements, loops, different types of data types, arithmetic operations, what Es6 is.
 
 
 
 __Materials__: 
-- <a href='https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript'>Basic Javascript</a>or <a href='https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6'>Es6</a>
+- <a href='https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript'>Basic Javascript</a>
+- <a href='https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6'>Es6</a>
 
 __What to build__: A Javascript clock 
 
 
 
-<h2 align="center">Week 4</h2>
+#Week 4
 __What to learn__: 
 Dive into more advanced programming concepts like Regex, data structures, OOP, functional programming, and how to use the JS debugger, console for debugging.
 
@@ -70,15 +59,12 @@ __What to build__:
 
 
 
-<h2 align="center">Week 5</h2>
+#Week 5
 __What to learn__: 
 Here a project would be built that involves everything learnt in the past weeks.
 
 __What to build__:
 - Github finder
-  -should have a search bar and button
-  -should show user profile including but not limited to name, repos, followers, following and stars
- -extra features are more than welcome
-   
+  
 
 
