@@ -6,12 +6,13 @@
 - Candidates with basic HTML and CSS should still focus on honing their skills in both technologies by building projects (doesn’t have to be some big)
 - Introduction to git 
 
-__What to build__: A simple login page styled with CSS
-
 __Materials__: 
 - <a href='https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5'>Basic html</a>
 - <a href='https://learn.freecodecamp.org/responsive-web-design/basic-css'>Basic css</a>
 - <a href='https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners'>Basic git</a>
+
+
+__What to build__: A simple login page styled with CSS
 
 
 # Week 2
