@@ -26,7 +26,7 @@ __Materials__:
 - <a href='https://learn.freecodecamp.org/responsive-web-design/css-grid'>css grid</a>
 
 
-__What to build__:Clone the <a href='https://cdn.dribbble.com/users/757683/screenshots/6976861/downloads/Home_Style_02@1x.jpg'>Home Style Website</a> 
+__What to build__: Clone the <a href='https://cdn.dribbble.com/users/757683/screenshots/6976861/downloads/Home_Style_02@1x.jpg'> Home Style Website</a> 
 
 
 # Week 3
