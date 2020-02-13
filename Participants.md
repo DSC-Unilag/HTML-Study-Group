@@ -9,3 +9,6 @@
 -[Aliyu Israel Adavize](https://github.com/AdavizeTheFirst)
 
 -[Philip Owoeye](https://github.com/nerdphil)
+
+-[Taiwo Seun](https://github.com/dro-1)
+
