@@ -2,6 +2,9 @@
 
 -[Bami Ogunfemi](https://github.com/bamiogunfemi)
 
+
+-[Ahmed Aminat](https://github.com/meenarh)
+
 -[Oluwasegun Emmanuel](https://github.com/nueldona)
 
 -[Akarawak Dima](https://github.com/Shiroiii)
@@ -12,3 +15,4 @@
 
 -[Taiwo Seun](https://github.com/dro-1)
 
+ 
