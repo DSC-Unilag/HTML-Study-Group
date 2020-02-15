@@ -15,5 +15,5 @@
 
 -[Taiwo Seun](https://github.com/dro-1)
 
- [Adelakun Tobiloba](https://github.com/Ayomipo)
+-[Adelakun Tobiloba](https://github.com/adelakuntobi)
 
