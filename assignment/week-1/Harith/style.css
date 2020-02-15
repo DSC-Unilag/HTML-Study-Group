@@ -46,7 +46,7 @@ input[type=text]:focus {
     font-family: sans-serif;
     margin-left: 50px;
     color: rgb(35, 147, 212);
-    padding: 60px;
+    padding: 50px;
 }
 @media screen and (min-width: 300px) {
     #login{
