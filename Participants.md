@@ -1,4 +1,3 @@
-
 -[Chukwurah Emmanuel](https://github.com/emmanuerl)
 
 -[Bami Ogunfemi](https://github.com/bamiogunfemi)
@@ -22,3 +21,4 @@
  [Noibi Abdulrasaq O.](https://github.com/Oleiques)
 
  [Kolatimi Dotun](https://github.com/KolatimiDave)
+
