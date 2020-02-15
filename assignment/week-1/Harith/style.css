@@ -44,7 +44,7 @@ input[type=text]:focus {
 #forgot{
     font-size: 10px;
     font-family: sans-serif;
-    margin-left: 60px;
+    margin-left: 50px;
     color: rgb(35, 147, 212);
     padding: 90px;
 }
