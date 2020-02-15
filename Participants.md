@@ -24,3 +24,4 @@
 
  [Kolatimi Dotun](https://github.com/KolatimiDave)
 
+[Adekomi Abdulhaleem](https://github.com/Adekomi-Abdulhaleem)
