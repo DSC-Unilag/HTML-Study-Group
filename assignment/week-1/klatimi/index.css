@@ -6,8 +6,6 @@ body,html{
   background-size: cover;
   display: flex;
   justify-content: center;
-  width: 100%;
-  max-width:240px;
 }
 
 html{
