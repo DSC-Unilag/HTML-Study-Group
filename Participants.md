@@ -23,5 +23,11 @@
  [Noibi Abdulrasaq O.](https://github.com/Oleiques)
 
  [Kolatimi Dotun](https://github.com/KolatimiDave)
+ 
+ [Raji Mustapha](https://github.com/mustykhot)
+
+ [Abdulrahman Yusuf](https://github.com/Young-Einstein10)
 
 [Adekomi Abdulhaleem](https://github.com/Adekomi-Abdulhaleem)
+ 
+-[Onigemo Harith](https://github.com/Harithmetic1)
