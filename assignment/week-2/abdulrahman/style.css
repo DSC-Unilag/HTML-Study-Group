@@ -284,12 +284,14 @@ section#outbound__payouts {
   .mycontainer {
     max-width: 960px;
   }
-}
 
+  #bg-home-img {
+    display: none;
+  }
 
-@media screen and (max-width: 768px) {
-  .mycontainer {
-    max-width: 720px;
+  #bg-home {
+    background: #ffedea;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
   }
 
   .mycol-sm-12 {
@@ -298,6 +300,103 @@ section#outbound__payouts {
     position: relative;
     justify-content: center;
     width: 100%;
+    text-align: center;
+  }
+
+  .byline {
+    margin-left: 3rem;
+  }
+
+  section#outbound__payouts {
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  
+  section#invoice__payments {
+    background: #ebf9ff;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  
+  section#contact__sales {
+    background: #ffedea;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+
+  section#outbound__payouts {
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  
+  section#invoice__payments {
+    background: #ebf9ff;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  
+  section#contact__sales {
+    background: #ffedea;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+
+  #sponsors ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  #sponsors ul li {
+    margin: 10px 0;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .mycontainer {
+    max-width: 720px;
+  }
+
+  #bg-home-img {
+    display: none;
+  }
+
+  #bg-home {
+    background: #ffedea;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+
+  .mycol-sm-12 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .byline {
+    margin-left: 3rem;
+  }
+
+  section#outbound__payouts {
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  
+  section#invoice__payments {
+    background: #ebf9ff;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  
+  section#contact__sales {
+    background: #ffedea;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+
+  #sponsors ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  #sponsors ul li {
+    margin: 10px 0;
   }
 }
 
