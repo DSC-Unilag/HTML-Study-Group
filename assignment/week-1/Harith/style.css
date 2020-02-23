@@ -1,0 +1,78 @@
+body{
+    background-color: rgb(35, 147, 212);
+}
+#header{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+#login{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin-left: 530px;
+    margin-top: 100px;
+}
+#user{
+    margin-top: 50px;
+    margin-left: 60px;
+    border: none;
+    border-bottom: 2px solid rgb(35, 147, 212);
+}
+input[type=text]:focus {
+    border: 3px solid  rgb(35, 147, 212);
+}
+#password{
+    margin-top: 15px;
+    margin-left: 60px;
+    border: none;
+    border-bottom: 2px solid rgb(35, 147, 212);
+}
+#button {
+    background-color: rgb(35, 147, 212);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+#forgot{
+    font-size: 10px;
+    font-family: sans-serif;
+    margin-left: 40px;
+    color: rgb(35, 147, 212);
+    padding: 50px;
+}
+@media screen and (min-width: 300px) {
+    #login{
+        width: 300px;
+        height: auto;
+        margin-left: 30px;
+    }
+}
+@media screen and (min-width: 400px) {
+    #login{
+        width: 300px;
+        height: auto;
+        margin-left: 50px;
+    }
+}
+@media screen and (min-width: 700px) {
+    #login{
+        width: 300px;
+        height: auto;
+        margin-left: 230px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    #login{
+        width: 300px;
+        height: auto;
+        margin-left: 500px;
+    }
+}
