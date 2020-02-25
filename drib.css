@@ -67,7 +67,7 @@ header {
     background: var(--bg-color);
 }
 
-.skewed__bg {
+.skewed-bg {
     background: var(--primary-color);
     transform: skew(0deg, -3deg);
     position: absolute;
@@ -198,15 +198,15 @@ main {
 }
 
 /* section 2 */
-.section__2 {
+.section2 {
     margin-top: 8rem;
 }
 
-.section__2 .text-md {
+.section2 .text-md {
     margin: 0rem 0rem 4rem 2rem;
 }
 
-.section__2 img {
+.section2 img {
     margin: 0rem 0rem 2rem 0rem;
 }
 
@@ -218,11 +218,11 @@ main {
     position: relative;
 }
 
-.section__4 {
+.section4 {
     margin: 5rem 3rem;
 }
 
-.section__4 .contact-1 img {
+.section4 .contact-1 img {
     width: 7%;
 }
 
@@ -326,15 +326,15 @@ main {
         padding: 5rem 0rem 0rem 2rem;
     }
 
-    .section__2 {
+    .section2 {
         margin-top: 8rem;
     }
 
-    .section__2 .text-md {
+    .section2 .text-md {
         margin: 0rem 0rem 4rem 2rem;
     }
 
-    .section__2 img {
+    .section2 img {
         margin: 0rem 0rem 5rem 0rem;
     }
 
@@ -401,7 +401,7 @@ main {
         width: 100%;
     }
 
-    .skewed__bg {
+    .skewed-bg {
         width: 77.5%;
         padding: 19rem 0;
     }
@@ -491,7 +491,7 @@ main {
         font-size: 2.5rem;
     }
 
-    .section__2 .little-dash {
+    .section2 .little-dash {
         margin-left: 2rem;
     }
 
@@ -555,7 +555,7 @@ main {
         width: 100%;
     }
 
-    .skewed__bg {
+    .skewed-bg {
         width: 78.6%;
         padding: 26rem 0;
     }
@@ -657,16 +657,16 @@ main {
         font-size: 2.5rem;
     }
 
-    .section__2 .little-dash {
+    .section2 .little-dash {
         margin-left: 2rem;
     }
 
-    .section__2,
+    .section2,
     .little-dash .text-md {
         margin-left: 5rem;
     }
 
-    .section__3 {
+    .section3 {
         height: 50rem;
     }
 
@@ -705,13 +705,13 @@ main {
         width: 33%;
     }
 
-    .section__4 {
+    .section4 {
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         margin: 5rem 3rem;
     }
 
-    .section__4 .contact-1 img {
+    .section4 .contact-1 img {
         width: 25%;
     }
 
