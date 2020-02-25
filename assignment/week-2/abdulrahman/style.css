@@ -1,0 +1,414 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #04014b;
+  line-height: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ margin-top:0;
+ margin-bottom:.5rem
+}
+
+h3 {
+  margin: 1.2rem 0;
+}
+
+h2 {
+  font-size: 3rem;
+  padding: 2rem 0;
+  line-height: 56px;
+}
+
+p {
+  /* margin-top:1.8rem; */
+  margin-bottom:1.8rem
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  margin: 20px 0;
+  color: #808088;
+}
+
+section {
+  height: 100vh;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+section#outbound__payouts {
+  clip-path: polygon(10% 10%, 100% 3px, 100% 90%, 10% 100%);
+}
+
+section#invoice__payments {
+  background: #ebf9ff;
+  clip-path: polygon(10% 10%, 100% 3px, 100% 90%, 10% 100%);
+}
+
+section#contact__sales {
+  background: #ffedea;
+  clip-path: polygon(0px 0px, 90% 10%, 90% 95%, 0px 85%);
+}
+
+section a {
+  color: #351c80;
+  font-weight: 600;
+}
+
+footer {
+  margin: 200px 0;
+}
+
+.footer__wrapper {
+  margin-right: 30px;
+}
+
+.footer__wrapper li {
+  margin-top: 20px;
+}
+
+.footer__myrow {
+  justify-content: space-between;
+}
+
+.footer__logo h3 {
+  width: 60%;
+}
+
+.footer__logo p {
+  margin-top: 250px;
+  font-size: 14px;
+}
+
+.my-1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.my-4 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.my-5 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.my-6 {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.mycontainer {
+  max-width:1140px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.myrow {
+  width: 100%;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.mycol {
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+
+.mycol-6 {
+  max-width: 50%;
+  flex: 0 0 50%;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+}
+
+.content-wrapper {
+  width: 90%;
+  padding: 15px;
+}
+
+#sponsors {
+  margin: 2.5rem 0;
+  padding: 170px 0;
+}
+
+.sponsors__logo-item {
+  max-width: 20%;
+  flex: 0 0 20%;
+  text-align: center;
+}
+
+.contact__sales-myrow {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  max-width: 75%;
+}
+
+.contact__sales-myrow p {
+  max-width: 400px;
+}
+
+.contact__sales-myrow a {
+  width: 23%;
+  background: #210096;
+  color: #fff;
+  padding: 1.5rem 2rem;
+  font-size:16px;
+  margin: 1.5rem 0;
+}
+
+/* Background Home */
+#bg-home {
+  background: #ffedea;
+  clip-path: polygon(20% 0, 100% 0, 100% 90%, 20% 100% );
+}
+
+#bg-home h1 {
+  font-size: 5rem;
+  line-height: 74px;
+}
+
+#bg-home p {
+  max-width: 400px;
+}
+
+/* Navigation */
+nav {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 70px;
+  align-items: center;
+  z-index: 1;
+}
+
+nav li a {
+  color: #04014b;
+}
+
+nav li a img {
+  margin-top: 10px;
+}
+
+.nav__items {
+  display: flex;
+}
+
+.nav__list-item, .nav__connect-item {
+  margin: 0 10px;
+}
+
+.nav__connect {
+  display: flex;
+}
+
+.nav__logo {
+  margin-left: 5.5rem;
+}
+
+.nav__connect {
+  margin-right: 5.5rem;
+}
+
+section#outbound__payouts {
+  background: #faf4fb;
+}
+
+.byline__wrapper {
+  flex-direction: column;
+}
+
+.byline__border, .sponsors__border {
+  width: 30px;
+  height: 3px;
+  background: #04014b;
+  margin-bottom: 1.3rem;
+}
+
+.byline__content {
+  font-size: 2rem;
+  line-height: 42px;
+}
+
+
+
+
+
+
+
+@media (max-width:1200px) {
+  .mycontainer {
+    max-width:1140px
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .mycontainer {
+    max-width: 960px;
+  }
+
+  #bg-home-img {
+    display: none;
+  }
+
+  #bg-home {
+    background: #ffedea;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+
+  .mycol-sm-12 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .byline {
+    margin-left: 3rem;
+  }
+
+  section#outbound__payouts {
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  
+  section#invoice__payments {
+    background: #ebf9ff;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  
+  section#contact__sales {
+    background: #ffedea;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+
+  section#outbound__payouts {
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  
+  section#invoice__payments {
+    background: #ebf9ff;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  
+  section#contact__sales {
+    background: #ffedea;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+
+  #sponsors ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  #sponsors ul li {
+    margin: 10px 0;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
+  .mycontainer {
+    max-width: 720px;
+  }
+
+  #bg-home-img {
+    display: none;
+  }
+
+  #bg-home {
+    background: #ffedea;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+
+  .mycol-sm-12 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .byline {
+    margin-left: 3rem;
+  }
+
+  section#outbound__payouts {
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  
+  section#invoice__payments {
+    background: #ebf9ff;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+  
+  section#contact__sales {
+    background: #ffedea;
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+  }
+
+  #sponsors ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  #sponsors ul li {
+    margin: 10px 0;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .mycontainer {
+    max-width: 540px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .mycontainer {
+    max-width: 340px;
+  }
+}
