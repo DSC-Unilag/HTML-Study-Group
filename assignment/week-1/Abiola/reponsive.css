@@ -1,0 +1,150 @@
+body
+{
+ margin:0 auto;
+ padding:0px;
+ text-align:center;
+ width:100%;
+ font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+     background: -webkit-radial-gradient(#f0aa1b, #e6890c, #f9c10e); /* For Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#f0aa1b, #e6890c, #f9c10e); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#f0aa1b, #e6890c, #f9c10e); /* For Fx 3.6 to 15 */
+    background: radial-gradient(#a836ea, #731a8c, #6c136b);
+}
+#wrapper
+{
+ margin:100px auto;
+ padding:0px;
+ text-align:center;
+ width:995px;
+ /*! background-color: ; */
+}
+#wrapper h1
+{
+ margin-top:50px;
+ font-size:45px;
+ color:#424949;
+}
+#wrapper h1 p
+{
+font-size:18px;
+}
+.form_div
+{
+width:330px;
+margin-left:320px;
+padding:10px;
+background-color:#a560df;
+color: black;
+}
+.form_div .form_label
+{
+margin:15px;
+margin-bottom:30px;
+font-size:40px;
+font-weight:bold;
+color:#1e1a1a;
+}
+.form_div input[type="text"],input[type="password"]
+{
+width:230px;
+height:40px;
+border-radius:15px;
+font-size:17px;
+padding-left:5px;
+border:none;
+margin: 20px;
+}
+.form_div input[type="submit"]
+{
+width:230px;
+height:40px;
+border:none;
+border-radius:2px;
+font-size:17px;
+background-color:#6c136b;
+border-bottom:3px solid #6c136b;
+color:black;
+font-weight:bold;
+margin: 20px;
+}
+
+@media only screen and (min-width:700px) and (max-width:995px)
+{
+#wrapper
+{
+width:100%;
+}
+#wrapper h1
+{
+font-size:30px;
+}
+.form_div
+{
+width:50%;
+margin-left:25%;
+padding-left:0px;
+padding-right:0px;
+}
+.form_div input[type="text"],input[type="password"]
+{
+width:80%;
+}
+.form_div textarea
+{
+width:80%;
+}
+.form_div input[type="submit"]
+{
+width:80%;
+}
+}
+@media only screen and (min-width:400px) and (max-width:699px)
+{
+#wrapper
+{
+width:100%;
+}
+#wrapper h1
+{
+font-size:30px;
+}
+.form_div
+{
+width:60%;
+margin-left:20%;
+}
+.form_div input[type="text"],input[type="password"]
+{
+width:80%;
+}
+.form_div input[type="submit"]
+{
+width:80%;
+}
+}
+@media only screen and (min-width:100px) and (max-width:399px)
+{
+#wrapper
+{
+width:100%;
+}
+#wrapper h1
+{
+font-size:25px;
+}
+.form_div
+{
+width:90%;
+margin-left:5%;
+padding-left:0px;
+padding-right:0px;
+}
+.form_div input[type="text"],input[type="password"]
+{
+width:80%;
+}
+.form_div input[type="submit"]
+{
+width:80%;
+}
+}
