@@ -1,0 +1,10 @@
+body {
+    background: url(back.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+#clock {
+    text-align: center;
+    margin-top: 30%;
+}
