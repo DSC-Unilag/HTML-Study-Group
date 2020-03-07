@@ -18,16 +18,16 @@
 
 -[Taiwo Seun](https://github.com/dro-1)
 
- [Adelakun Tobiloba](https://github.com/Ayomipo)
+-[Adelakun Tobiloba](https://github.com/Ayomipo)
  
- [Noibi Abdulrasaq O.](https://github.com/Oleiques)
+-[Noibi Abdulrasaq O.](https://github.com/Oleiques)
 
- [Kolatimi Dotun](https://github.com/KolatimiDave)
+-[Kolatimi Dotun](https://github.com/KolatimiDave)
  
- [Raji Mustapha](https://github.com/mustykhot)
+-[Raji Mustapha](https://github.com/mustykhot)
 
- [Abdulrahman Yusuf](https://github.com/Young-Einstein10)
+-[Abdulrahman Yusuf](https://github.com/Young-Einstein10)
 
-[Adekomi Abdulhaleem](https://github.com/Adekomi-Abdulhaleem)
+-[Adekomi Abdulhaleem](https://github.com/Adekomi-Abdulhaleem)
  
 -[Onigemo Harith](https://github.com/Harithmetic1)
