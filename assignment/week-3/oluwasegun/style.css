@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  color: #000;
+  font-family: ;
+}
+
+section {
+  display: block;
+  width: 100%;
+  height: 640px;
+}
+
+.time__section {
+  background: url('img/10f51483276829.5d376f927cace.jpg') no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+
+.time__section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 80px 60px 200px #000, inset -80px -60px 200px #000;
+}
+
+.middle {
+  position: absolute;
+  content: '';
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 25px;
+  width: 100%;
+  height: 100px;
+  z-index: 2;
+}
+
+.time > div {
+  padding: 0 8px;
+  font-size: 40px;
+  font-weight: bolder;
+  position: relative;
+  -webkit-box-reflect: below -90px linear-gradient(transparent, #00000044);
+}
+
+div .tick {
+  margin: 0 .2rem;
+}
+/* // subscribe input */
+
+.newsletter {
+  display: block;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 20%;
+  animation: fade-in 5s ease;
+}  
+
+h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+input {
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  margin: 20px auto;
+  padding: 14px 20px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+
+.btn {
+  background: linear-gradient(123deg, #1b69ce, rgb(0, 3, 22));
+  font-size: medium;
+  font-weight: normal;
+  transition: 0.4s;
+  /* color: $whiteColor; */
+  color: #fff;
+  padding: 12px 20px;
+  width: 70%;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: .9;
+}
+
+
+/* share__btn */
+.share__btn {
+  width: 120px;
+  height: 37px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  transition: .7s linear;
+  float: right;
+  top: 95px;
+  cursor: pointer;
+}
+
+.share__btn:hover {
+  transform: scale(1.1);
+}
+
+.share__btn:hover span {
+  transform: translatex(-100%);
+  transition-delay: .3s;
+}
+ 
+.share__btn:hover a {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.share__btn > span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(123deg, #1b69ce, rgb(0, 3, 22));
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  z-index: 999;
+  transition: .6s linear;
+}
+
+.share__btn > a {
+  display: flex;
+  flex: 1;
+  text-align: center;
+  justify-content: space-evenly;
+  color: #000;
+  opacity: 0;
+  transition: .3s linear;
+  transform: translateX(-100%);
+}
+
+.share__btn > a:nth-of-type(1){
+  transition-delay: 1s;
+}
+.share__btn > a:nth-of-type(2){
+  transition-delay: .8s;
+}
+.share__btn > a:nth-of-type(3){
+  transition-delay: .6s;
+}
+.share__btn > a:nth-of-type(4){
+  transition-delay: .4s;
+}
+
+i {
+  color: #000;
+}
+
+/* media query */
+@media screen and (min-width: 960px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  section {
+    display: block;
+    width: 100%;
+    height: 660px;
+  }
+
+  .newsletter {
+    padding: 15% 5% 0% 4%;
+  }  
+  
+}
+
+@media screen and (min-width: 700px) {
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  section {
+    display: block;
+    width: 100%;
+    height: 660px;
+  }
+
+  .newsletter {
+    padding: 15% 5% 0% 4%;
+  }  
+}
+
+
+@media screen and (max-width: 500px) {
+  .newsletter {
+    padding: 17% 5% 0% 4%;
+  }  
+}
