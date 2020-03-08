@@ -1,4 +1,4 @@
-let dayArr = ["Saturday" ,'Sunday','Monday','Tuesday','Wednesday','Thursday','Friday'];
+let dayArr = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday', 'Saturday'];
 let dd = document.getElementById ("dd");
 let hh = document.getElementById("hh");
 let mm = document.getElementById("mm");
