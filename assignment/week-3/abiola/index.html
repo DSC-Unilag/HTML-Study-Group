@@ -45,10 +45,10 @@ function showTime(){
     var days=["Saturday" ,'Sunday','Monday','Tuesday','Wednesday','Thursday','Friday'];
     var month=time.getMonth();
     var day=time.getDate();
+    var day=time.getDay();
     var month_1=months[month];
-    var day_of_the_week=time.getDay();
-
-    var date= "Today's date  is: " + day_of_the_week + ' '+day + " "+month_1 +", "+year+"."
+    
+    var date= "Today's date  is: " + days[day] + ' '+day + " "+month_1 +", "+year+"."
     document.getElementById("clock").innerText=display;
     document.getElementById("clock").textContent=display;
     document.getElementById("date").innerText=date;
