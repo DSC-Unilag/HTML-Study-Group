@@ -41,14 +41,13 @@ function showTime(){
     
     var display= h +" :  "+ m +" :  " + s + "  " +session;
     var months=["January",'February',"March","April","May","June",'July',
-                 'August','September','October',"November","December"];
-    var days=["Saturday" ,'Sunday','Monday','Tuesday','Wednesday','Thursday','Friday'];
+                 'August','September','October',"November","December"]
     var month=time.getMonth();
     var day=time.getDate();
-    var day=time.getDay();
+    var daye=time.getDay();
     var month_1=months[month];
     
-    var date= "Today's date  is: " + days[day] + ' '+day + " "+month_1 +", "+year+"."
+    var date= "Today's date  is: "  + ' '+day + " "+month_1 +", "+year+"."
     document.getElementById("clock").innerText=display;
     document.getElementById("clock").textContent=display;
     document.getElementById("date").innerText=date;
