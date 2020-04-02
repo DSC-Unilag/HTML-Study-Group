@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>
+Digitalclock.html
+</title>
+<style>
+    body {font-size: 60px;
+     background-color: blue;
+     color: chartreuse;
+     font-weight: bold;
+     text-shadow: rgb(243, 38, 38);
+     text-align: center;
+     font-style: italic;
+     margin-top: 20%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+</style>
+
+    </head>
+    <body>
+     <div id="timeDisplay"></div>   
+<script type="text/javascript">
+     function tellTime() {
+         var date = new Date();
+         var h = date.getHours();
+         var m = date.getMinutes();
+         var s = date.getSeconds();
+         var session = "AM";
+         if (h < 12) {
+             
+        }
+        else if (h > 12) {
+            h = (h - 12);
+            session = "PM";
+        }
+        /*if (h > 10){
+            h = "0" + h;
+        }
+        if (m > 10){
+            m = "0" + m;
+        }
+        if (s > 10){
+            s = "0" + s;
+        }*/
+        // Alternative for this is below
+        h = (h < 10) ? "0" + h : h;
+        m = (m < 10) ? "0" + m : m;
+        s = (s < 10) ? "0" + s : s;
+        var time = h + ":" + m + ":" + s + " " + session;
+        document.getElementById("timeDisplay").innerText = time;
+        document.getElementById("timeDisplay").textContent = time;
+        
+    }
+     setInterval(tellTime, 1000);
+
+</script>
+    </body>
+    </html>
