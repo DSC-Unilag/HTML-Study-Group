@@ -1,0 +1,130 @@
+     body {color: rgb(23, 23, 146);
+          display: flex;
+          flex-wrap: wrap;
+    }
+    header {display: flex;
+    }
+    
+   /* nav{
+     margin: auto;
+     background-color: rgb(250, 239, 240);
+    }
+    nav ul {list-style: none;
+     display: flex;
+     flex-direction: row;
+     font-size: 12px;
+     justify-content: space-around;
+     align-items: stretch;
+ }*/
+     header nav ul  {list-style: none;
+                   display: flex;
+                   font-size: 80%; 
+     }
+    .image0 {height: 40px;
+             width: 50px;
+    }
+    .section0, .section1, .section2, .section3, .section4, .section5, .section6, .section9 {display: flex;           
+    }
+    .image1, .image2, .image3, .image4, .image5, .image6 {width: 50%;
+             height: 50%;
+    }
+    section {margin: 20px; 
+    }
+    .section7 {font-size: 20px;
+               font-weight: bold;
+    }
+    .logo1, .logo2, .logo3, .logo4, .logo5, .logo6, .logo7, .logo8, .logo9, .logo10 {
+         width: 20%;
+    }
+    .first_container, .second_container {display: flex;
+         margin-top: 20px;
+    }
+    .section9 {background-color: rgb(253, 243, 252);  
+                        line-height: 30px;
+    }
+    .image7 {height: 30%;
+            width: 40%;
+    }
+    .section9 p span {font-size: 250%;
+    }
+    .section9 div {height: 8%;
+                   width: 30%;
+                   background-color: blue;
+                   color: white;
+                   margin: auto;
+                   position: absolute;
+                   top: 2600px;
+                   left: 10%;
+                   border-radius: 5px;
+              }
+    
+    /*.section9 span .sp {margin: 20px solid blue;
+                                    color: white;
+                                    font-size: 70%;
+    }
+    */
+    .section9 div p {text-align: center;
+                     padding-top: 10px;
+                     font-size: 110%;
+    }
+    .footerSection {margin-top: 50px;
+    } 
+    footer section table tr th {text-align: center;
+    }
+    .footerSection{display: flex;
+    }
+    .footerSection1{flex: 1;
+                   font-size: 24px;}
+     .noed {display: block;
+            text-align: center;
+     }
+    .footerSection2{flex: 1;}
+    footer section table {font-size: 70%;
+    }    
+
+@media (min-width: 700px) 
+{
+     .section0, .section1, .section2, .section3, .section4,
+     .section5, .section6, .section9 
+     {
+           display: flex;
+           font-size: 24px;
+           align-items: center;         
+     }
+     .section9 
+     {
+          line-height: 40px;
+     }
+     .footerSection2 table tr, td, th 
+     {
+          font-size: 120%;
+     }
+     .section7{font-size: 26px;
+               font-weight: bold;
+     }
+     .section9 div {top: 4100px;
+     }
+}
+@media (min-width: 925px) 
+{
+     .section0, .section1, .section2, .section3, .section4,
+     .section5, .section6, .section9 
+     {
+           display: flex;
+           font-size: 36px;
+           align-items: center;
+           line-height: 55px;         
+     }
+     .section9 
+     {
+          line-height: 60px;
+     }
+     .section7
+     {    font-size: 34px;
+          font-weight: bold;
+          line-height: 40px;
+     }
+     .section9 div {top: 6045px;
+     }   
+
+}
