@@ -1,0 +1,17 @@
+body {
+  font-size: 86px;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: black;
+}
+
+#time {
+  color: red;
+  display: flex;
+  align-items: center;
+}
+
+span {
+  padding: 1rem .5rem;
+}

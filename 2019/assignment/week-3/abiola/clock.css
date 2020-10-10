@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+   body{
+       min-height: 100vh;
+       background: -webkit-linear-gradient(#417fdf, #1d53a8); /* For Safari 5.1 to 6.0 */
+       background: -o-linear-gradient(#417fdf, #1d53a8); /* For Opera 11.6 to 12.0 */
+       background: -moz-linear-gradient(#417fdf, #1d53a8); /* For Fx 3.6 to 15 */
+       background: linear-gradient(#417fdf, #1d53a8);
+    }
+
+    #wrapper {
+
+        margin: 100px auto;
+        padding-top: 150px;
+        text-align: center;
+        width: 995px;
+        margin: 0px auto;
+        font-size: 5em;
+        text-shadow:0px 0px 20px;
+}
+    #clock{
+        text-align: center;
+    }
+ #date{ 
+    font-size: 25px;
+
+    color:
+    aliceblue;
+
+}
+@media only screen and (min-width:700px) and (max-width:995px)
+{
+#wrapper
+{
+width:100%;
+}
+}
+@media only screen and (min-width:400px) and (max-width:699px)
+{
+#wrapper
+{
+width:100%;
+}
+}
+@media only screen and (min-width:100px) and (max-width:399px)
+{
+#wrapper
+{
+width:100%;
+font-size: 2em;
+}
+#date{
+    font-size: 12px; 
+}
+
+}

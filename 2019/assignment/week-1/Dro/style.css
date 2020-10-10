@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    font-family: Candara, sans-serif;
+    background: radial-gradient(circle at top right, #f230ed,#ffffff);
+    background-repeat: no-repeat;
+}
+h1{
+    padding: 0.5em 0 0.5em 2em;
+    text-align: left;
+    box-shadow: 2px 2px black
+}
+fieldset{
+    border: none;
+    text-align: center;
+}
+label{
+    padding: 20px;
+    display: block;
+    font-size: 25px;
+}
+#emailLabel{
+    padding-top: 2em;
+}
+legend{
+    text-align: center;
+     padding-top: 0.5em;
+    font-size: 4em;
+}
+input{
+    padding: 8px;
+    width: 60%;
+    margin-bottom: 50px;
+    font-size: 18px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border: 2px solid grey;
+}
+button{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: skyblue;
+    border-bottom-left-radius: 15px;
+    border: none;
+    box-shadow: 4px 4px 5px grey;
+}
+footer{
+    font-family: Calibri, serif;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+   bottom: 2px;
+    color: antiquewhite;
+    font-size: 20px;
+    background-color: purple;
+}
+

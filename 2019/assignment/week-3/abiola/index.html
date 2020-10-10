@@ -1,0 +1,62 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<link href="clock.css" type="text/css" rel="stylesheet"/>
+<title >MY Clock </title>
+</head>
+<body>
+      
+<section id="wrapper">
+    <div id="clock"> </div>
+    <div id="date"> </div>
+   
+
+
+</section>
+<script>
+function showTime(){
+    var time=new Date();
+    var h=time.getHours();
+    var m=time.getMinutes();
+    var s=time.getSeconds();
+    var session="AM";
+    var year=time.getFullYear(); 
+    if (h==0){
+        h=12;
+    }
+    if (h>12){
+        h=h-12
+        session="PM"
+    }
+    /*using arrow operator
+        if (h<10) {
+            h= "0" + h
+
+        }
+    **/
+
+    h=(h<10) ? '0'+h :h;
+    m=(m<10) ? '0'+m :m;
+    s=(s<10) ? '0'+s :s;
+    
+    var display= h +" :  "+ m +" :  " + s + "  " +session;
+    var months=["January",'February',"March","April","May","June",'July',
+                 'August','September','October',"November","December"]
+    var month=time.getMonth();
+    var day=time.getDate();
+    var daye=time.getDay();
+    var month_1=months[month];
+    
+    var date= "Today's date  is: "  + ' '+day + " "+month_1 +", "+year+"."
+    document.getElementById("clock").innerText=display;
+    document.getElementById("clock").textContent=display;
+    document.getElementById("date").innerText=date;
+
+    setTimeout(showTime,1000);
+
+}
+showTime();
+
+</script>
+</body>
+</html>
