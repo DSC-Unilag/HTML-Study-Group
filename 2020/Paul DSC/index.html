@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSC Unilag</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+        *  {
+            padding:0;
+            margin:0;
+            font-family: 'Noto Sans';
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f5f5f5;
+        }
+        nav {
+            width: 100vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center !important;
+            background-color: #f5f5f5;
+            height: 80px !important;
+        }
+        .offer, nav, .banner {
+            padding: 0 12vw;
+        }
+        a {
+            margin: 0 0 0 20px;
+            color: #303030;
+            font-weight: 700;
+            font-size: 0.8rem;
+            text-decoration: none;
+        }
+        .signup {
+            background: rgb(77, 107, 241);
+            color: #efefef;
+            padding: 5px 12px;
+            border-radius: 5px;
+        }
+        .logo {
+            display: flex;
+            height: 40px;
+            align-items: center;
+        }
+        .logo img {
+            width: 30px;
+            height: 30px;
+        }         
+        .logo h3 {
+            font-weight: 400;
+            margin-left: 20px;
+        }
+        .banner {
+            min-height: calc(100vh - 150px);
+            display: flex;
+            width: 100vw;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            align-items: center;
+        }
+        .banner img {
+            width: 30vw;
+            height: 25vw;
+        }
+        .text {
+            width: 30vw;
+            color: #303030;
+        }
+        h1 {
+            margin: 20px 0;
+        }
+        p {
+            font-size: 0.85rem;
+            line-height: 25px;
+            margin-bottom: 20px;
+        }
+        .banner .signup {
+            margin-left: 0;
+            padding: 9px 24px;
+            box-shadow: 5px 5px 5px rgba(77, 107, 241,0.2), -5px -5px 5px rgba(77, 107, 241,0.2);
+        }
+        .offer {
+            width: 100vw;
+        }
+        .offer h1 {
+            text-align: center;
+        }
+        .boxes {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .box {
+            width: 300px;
+            background-color: #ffffff;
+            box-shadow: 5px 5px 5px rgba(183, 192, 219, 0.295), -5px -5px 5px rgba(183, 192, 219, 0.295);
+            margin: 20px 0;
+            padding: 30px;
+            border-radius: 5px;
+        }
+        h3 {
+            margin-bottom: 15px;
+        }
+        .fa-code {
+            color: rgb(77, 107, 241);
+            font-weight: 700;
+            font-size: 2rem;
+        }
+        .icon {
+            margin: 20px 0;
+        }
+        .fa-bars {
+            display: none;
+        }
+        @media (max-width : 960px) {
+            .banner {
+                flex-direction: column-reverse;
+            }
+            .banner img {
+                width: 76vw;
+                height: 65vw;
+                margin: 30px 0;
+            }
+            .links {
+                display: none;
+            }
+            .fa-bars {
+                display: initial;
+                font-size: 1.5rem;
+                color: #303030;
+            }
+            .text {
+                width: 70vw;
+                text-align: center;
+                color: #303030;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav >
+        <div class="logo">
+            <img src="./icon.png" alt="">
+            <h3>DSC UNILAG</h3>
+        </div>
+        <div class="links">
+            <a href="#">Overview</a>
+            <a href="#">technologies</a>
+            <a href="#">Learn</a>
+            <a href="#">Workshop</a>
+            <a href="#">Team</a>
+            <a href="#" class='signup'>Sign Up</a>
+        </div>
+        <i class="fa fa-bars"></i>
+    </nav>
+
+    <main>
+        <div class="banner">
+            <img src="./diversity.png" alt="">
+            <div class="text">
+                <h1>Developers Student Club <br/>University of Lagos.</h1>
+                <p>We are University based community groups for students
+                    interested in Google developer technologies. Students from all undergraduate
+                    or graduate programs with an interest in growing as a developer are welcome.
+                </p>
+                <a href="https://dsc.community.dev/university-of-lag" class='signup'>Become a member</a>
+            </div>
+        </div>
+
+        <div class="offer">
+            <h1>WHAT WE OFFER</h1>
+            <div class="boxes">
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <h3>Game development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti fugiat culpa porro quia eaque. Repudiandae, quasi accusantium voluptate ea ipsa cumque quisquam sequi suscipit</p>
+                </div>
+                
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <h3>Frontend Web development</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque ea, perferendis vel natus culpa quas laudantium sunt tempora libero et, doloribus repudiandae dicta quisquam alias
+                    </p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <h3>Python</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dicta repudiandae earum eveniet distinctio assumenda reprehenderit dolores esse ullam, totam praesentium sequi </p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <h3>Backend</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias dicta repudiandae earum eveniet distinctio assumenda reprehenderit dolores esse ullam, totam praesentium sequi </p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <h3>UI</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit incidunt modi voluptate mollitia quisquam ipsum esse eum minus laborum explicabo, fuga culpa nemo est consectetur susc</p>
+                </div>
+                <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-code"></i>
+                    </div>
+                    <h3>Cyber Security</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ut nostrum iusto alias deserunt veniam sequi dolore. Praesentium aliquid ea, quos eos cupiditate laudantium suscipi</p>
+                </div>
+            </div>
+        </div>
+     </main>
+</body>
+</html>
