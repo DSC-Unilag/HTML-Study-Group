@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(6, 65, 88);
+}
+.name{
+    color: white;
+    text-align: center;
+}
+#details{
+    text-align: left;
+    margin-left:10px;
+    color:white;
+    margin-top:10px;
+}
+
+
+
