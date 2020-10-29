@@ -2,7 +2,7 @@
 ## HOW TO SUBMIT TO THE REPO
 ### i assume you know your way around the terminal, and that you've already installed git
 -  Login to your github account
- - **FORK THE REPO**: at the top right of the repo, you will see three buttons; watch, star, and fork click on fork see the image below
+ - **FORK THE REPO**: at the top right of the repo, you will see three buttons; **watch**, **star**, and **fork**. click on fork see the image below
  
  ![fork](https://i.ibb.co/9p4F7Ph/fork.jpg)
  
@@ -15,8 +15,8 @@
  - then type 
    `git clone "paste the link you copied from your copy/version of this repo here"` eg 
    `git clone https://github.com/ogheneovo12/HTML-Study-Group.git`
- - if you open your file explorer, you will see the project folder in your directory, open it with the code editor of your choice
- - you will see different folders in these format **WEEK1**, **WEEK2**, **WEEK3**, open the current assignment week eg **WEEK1**
+ - if you open your file explorer, you will see the project folder in your directory, open it with the code editor of your choice, open the /2020 directory, then open the HTML-CSS di rectory (i.e /2020/HTML-CSS)
+ - you will see different folders in these format **WEEK1**, **WEEK2**, open the current assignment week eg **WEEK1**
  - **CREATE A NEW BRANCH**: to create a new branch enter into your terminal `git branch WEEK1` (you are free to name that **WEEK1** anything)
  - then enter `git checkout WEEK1` (replace **WEEK1** with whatever name you used in the previous step)
  - create a new file/folder (this depends on the given assignment's instruction)
