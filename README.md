@@ -51,4 +51,4 @@
   ```
 - then once you are done you will see two folders **WEEK1** and **WEEK2**, rename your assignments to your fullname and move them to their respective week folder,
 - commit your changes and then push
-- that should be all, if you encounter any issue, do well to ask on the whatsapp group chat and i would be glad to app
+- that should be all, if you encounter any issue, do well to ask on the whatsapp group chat and i would be glad to help
