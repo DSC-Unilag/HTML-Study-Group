@@ -41,14 +41,14 @@
  so i will take you through this guide on how you can update your version of this repo to our current version.
  
 
-- **COPY ORIGINAL REPO GIT URL**: at the top of this page you will see a brown button with text of **code** click it, a dropdown will open, copy the link in the dropdown (https://github.com/DSC-Unilag/HTML-Study-Group.git *this is the link copy it) 
+- **COPY ORIGINAL REPO GIT URL**: at the top of this page you will see a brown button with text of **code** click it, a dropdown will open, copy the link in the dropdown (https://github.com/DSC-Unilag/HTML-Study-Group.git **this is the link copy it**) 
 - then in terminal enter `git remote add upstream https://github.com/DSC-Unilag/HTML-Study-Group.git`
--then enter the following commands in your terminal
--`# Sync your fork
-git fetch upstream
-git checkout master
-git merge upstream/master
-`
-- then once you are done you will see two folders **WEEK1** and **WEEK2**, rename your assignments to your name and move them to their respective week folder,
+- then enter the following commands in your terminal
+- ```# Sync your fork
+  git fetch upstream
+  git checkout master
+  git merge upstream/master 
+  ```
+- then once you are done you will see two folders **WEEK1** and **WEEK2**, rename your assignments to your fullname and move them to their respective week folder,
 - commit your changes and then push
 - that should be all, if you encounter any issue, do well to ask on the whatsapp group chat and i would be glad to app
