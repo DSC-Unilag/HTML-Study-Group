@@ -1,4 +1,5 @@
 # DSC UNILAG FRONT END STUDY GROUP
+#PART ONE
 ## HOW TO SUBMIT TO THE REPO
 ### i assume you know your way around the terminal, and that you've already installed git
 -  Login to your github account
@@ -35,7 +36,7 @@
  ![github pullrequest image](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/43040346998/original/Gw-I7-mlL6fioR5PPW_mHOx9KY67DDGQkA.png?1556061766)
  
  
- 
+ #PART TWO
 ### HOW TO SUBMIT FOR WEEK1 AND WEEK2(this is for those who already submitted earlier before this day 10/29/2020 10:40PM)
  some changes were made to the repo after you submittted, you currently do not have them in your own version,
  so i will take you through this guide on how you can update your version of this repo to our current version.
