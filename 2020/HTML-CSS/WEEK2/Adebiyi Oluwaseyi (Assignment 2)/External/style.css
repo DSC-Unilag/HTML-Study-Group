@@ -1,0 +1,11 @@
+.body{
+    background-color: rgba(136, 250, 6, 0.897); 
+    color: black;
+}
+.header{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#bio{
+font-family: 'Times New Roman', Times, serif;
+color: rgb(25, 6, 110);
+}
