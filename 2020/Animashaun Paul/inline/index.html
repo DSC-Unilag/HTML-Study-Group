@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul | About Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      h1 {
+        font-family: 'Bree Serif';
+        letter-spacing: 6px;
+        line-height: 96px;
+        font-size: 48px;
+      }
+      
+    
+      .head img {
+        object-fit: cover;
+        height: 100%;
+        justify-content:center;
+        width: 80%;
+      }
+     
+      .flex {
+        display: flex;
+        padding: 0 10vw;
+        width: 100vw;
+        justify-content: space-between;
+        margin: 100px 0;
+        min-height: 30px;
+        align-items: center;
+        flex-direction: row-reverse;
+      }
+      .t {
+        flex-direction: row;
+      } 
+      .text {
+        width:50%;
+      }
+      
+      .image img {
+        height: 300px;
+      }
+      h2 {
+        font-family: Ubuntu;
+        font-weight: 700;
+        font-size: 32px;
+        margin-bottom: 30px;
+      }
+
+      .separator {
+        display: flex;
+        justify-content: center;
+        height: 10px;
+        align-items: center;
+      }
+      .circle {
+        width: 15px;
+        height: 15px;
+        background: rgb(29, 15, 92);
+        border-radius: 50%;
+      }
+      .line {
+        display: block;
+        width: 200px;
+        height: 2px;
+        background-color: rgb(29, 15, 92);
+      }
+      .contact {
+        background-color: rgb(29, 15, 92);
+        color: #efefef;
+        margin-bottom: 0;
+        padding: 50px 10vw;
+      }
+      
+      
+
+      .social {
+        background-color: rgb(29, 15, 92);
+        padding: 0 10vw 20px 10vw;
+      }
+
+      .social #icon {
+        color: #efefef;
+        font-size: 24px;
+        text-decoration: none;
+        margin-right: 20px;
+      }
+
+      .social #icon:hover {
+        opacity: 0.3;
+      }
+   
+      @media (max-width:900px){
+        .head img {
+          display: none;
+        }
+        .head {
+          height: 100vh;
+          background: linear-gradient(rgba(29, 15, 92,0.8),rgba(29, 15, 92,0.8)),url(./paul.png);
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          width: 100vw;
+        }
+        h1 {
+          font-size: 44px;
+          line-height: 48px;
+          margin-bottom: 20px;
+        }
+        #start {
+          width: 100%;
+        }
+        div.flex {
+          display: flex;
+          margin: 50px auto;
+          width: 100%;
+          flex-wrap: wrap-reverse;
+          text-align: center;
+        }
+        .flex img {
+          height:200px;
+          width: 200px;
+          margin: auto;
+          display: block;
+          object-fit: contain;
+        }
+        .text {
+          margin: 30px 0;
+        }
+
+        .separator {
+          display: none;
+        }
+        
+        .flex * {
+          width: 100%;
+        }
+        div.contact {
+          margin-bottom: 0;
+        }
+      }
+        </style>
+</head>
+<body>
+  <div class="head" style="
+    display:flex;
+    height: 100vh;
+    width: 100vw;
+    color: #efefef;
+    /* height:60vh; */
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    background-color:rgb(29, 15, 92);
+    padding:0 10vw;
+   
+  ">
+    <div id="start" style="
+      color: white;
+      width: 50vw;
+    "> 
+      <h1>Animashaun Paul</h1>
+      <p style="
+         font-family: Ubuntu;
+        line-height: 38px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #333333;
+        font-size: 28px;
+        line-height: 48px;
+        color: #efefef;
+      ">Videographer and Graphic designer from Oyo state, Nigeria.</p>
+    </div>
+    <img src="./../images/paul.png" alt="">
+  </div>
+  <div class="flex">
+    <div class="text">  
+      <h2>Hello!</h2>
+      <p style="
+         font-family: Ubuntu;
+        line-height: 38px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #333333;
+      ">Yeah!Am Paul, one short boy like that, An indigene of Oyo state from Oluyole Local Government. I live somewhere in mushin inside   Lagos.</p>
+      <p style="
+         font-family: Ubuntu;
+        line-height: 38px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #333333;
+      ">Like you read earlier, I am short and dark. I have two siblings. We stay with     our  parents. I have a senior sister and a junior sister, they are; ANIMASHAUN DEBORAH OPEYEMI and ANIMASHAUN OLASUBOMI RUTH respectively. I am a christian.</p>
+    </div>  
+    <div class="image">
+      <img src="./../images/hello.png" alt="">
+    </div>
+  </div>
+
+  <div class="separator">
+    <div class="line"></div>
+    <div class="circle"></div>
+    <div class="line"></div>
+  </div>
+
+  <div class="flex t">
+    <div class="text">
+        <h2>EDUCATION</h2>
+        <p style="
+           font-family: Ubuntu;
+        line-height: 38px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #333333;
+        ">I finished my primary education at Abina Omololu Nursery and Primary School in Surulere in the year 2012. Continued my Secondary Education at Onitolo Community Junior High School in Surulere. Then moved on to Onitolo Community Senior High School to complete my senior education in 2019. I am presently an aspirant of the Lagos State University.</p>
+    </div>
+    <div class="image">
+      <img src="./../images/school.png" alt="">
+    </div>
+  </div>
+
+  <div class="separator">
+    <div class="line"></div>
+    <div class="circle"></div>
+    <div class="line"></div>
+  </div>
+
+  <div class="flex">
+    <div class="text">
+        <h2>WHAT I DO</h2>
+        <p style="
+           font-family: Ubuntu;
+        line-height: 38px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #333333;
+        ">I am presently undergoing trainning to become an expert in Video-editing, videography and Photography. I am also a graphic designer. I am a beginner in programming. I guess that all on what I do.</p>
+    </div>
+    <div class="image">
+      <img src="./../images/work.png" alt="">
+    </div>
+  </div>
+
+  <div class="separator">
+    <div class="line"></div>
+    <div class="circle"></div>
+    <div class="line"></div>
+  </div>
+
+  <div class="flex t"> 
+    <div class="text">
+      <h2>HOBBIES</h2>
+      <p style="
+         font-family: Ubuntu;
+        line-height: 38px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #333333;
+      ">You want to know what I love doing. Here it is! My hobbies. I love Dancing and Singing. Those two things make me happy even when I am sad. I so much enjoy listening to music.</p>
+    </div> 
+    <div class="image">
+      <img src="./../images/hobby.png" alt="">
+    </div>
+  </div>
+
+  <div class="separator">
+    <div class="line"></div>
+    <div class="circle"></div>
+    <div class="line"></div>
+  </div>
+
+  <div class="flex">
+    <div class="text">
+      <h2>BEST FRIEND</h2>
+      <p style="
+         font-family: Ubuntu;
+        line-height: 38px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #333333;
+      ">I am not also bad at making friends, of course! I have a best friend. A very good one. A guy with good mind. He is a programmer and he is currently studying in University of Lagos, Akoka. EMMANUEL STEPHEN CHUKWUNONSO. I love him always!</p>
+    </div> 
+    <div class="image">
+      <img src="./../images/friends.png" alt="">
+    </div>
+  </div>
+
+  <div class="flex t contact">
+    <div class="text">
+        <h2>CONTACT</h2>
+        <p style="
+           font-family: Ubuntu;
+        line-height: 38px;
+        font-size: 20px;
+        font-weight: 400;
+        color: #efefef;
+        ">You might want to know more about me in details. I will be glad to know you also.My FB ID is PA UL and my whatsapp number is 09080376857. So feel free to slide into my DM and let vibe!</p>
+    </div>
+    <div class="image">
+      <img src="./../images/contact.png" alt="">
+    </div>
+  </div> 
+
+  <div class="social">
+    <a href="https://web.facebook.com/paul.oluwaseyi.35/?viewas=100000686899395" class='fa fa-facebook' id='icon'></a>
+    <a href="https://wa.me/2349080376857" class='fa fa-whatsapp' id='icon'></a>
+    <a href="#" class='fa fa-instagram' id='icon'></a>
+    <a href="#" class='fa fa-twitter' id='icon'></a>
+  </div>
+ 
+</body>
+</html>
