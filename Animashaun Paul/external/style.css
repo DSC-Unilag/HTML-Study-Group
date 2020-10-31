@@ -1,0 +1,175 @@
+
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+h1 {
+font-family: 'Bree Serif';
+letter-spacing: 6px;
+line-height: 96px;
+font-size: 48px;
+}
+.head  {
+display:flex;
+height: 100vh;
+width: 100vw;
+color: #efefef;
+/* height:60vh; */
+justify-content: space-between;
+/* flex-wrap: wrap; */
+align-items: center;
+background-color:rgb(29, 15, 92);
+padding:0 10vw;
+}
+p {
+font-family: Ubuntu;
+line-height: 38px;
+font-size: 20px;
+font-weight: 400;
+color: #333333;
+}
+.head p {
+font-size: 28px;
+line-height: 48px;
+color: #efefef;
+} 
+.head img {
+object-fit: cover;
+/* width: 350px; */
+height: 100%;
+justify-content:center;
+/* transform: rotate(20deg); */
+    /* margin-top: 40px; */
+width: 80%;
+}
+#start  {
+color: white;
+width: 50vw;
+/* padding:15px; */
+/* font-size: xx-large; */
+/* margin-left:40px; */
+}
+.flex {
+display: flex;
+padding: 0 10vw;
+width: 100vw;
+justify-content: space-between;
+margin: 100px 0;
+min-height: 30px;
+align-items: center;
+flex-direction: row-reverse;
+}
+.t {
+flex-direction: row;
+} 
+.text {
+width:50%;
+}
+/* .imag {
+width: 50%;
+
+} */
+.image img {
+height: 300px;
+}
+h2 {
+font-family: Ubuntu;
+font-weight: 700;
+font-size: 32px;
+margin-bottom: 30px;
+}
+
+.separator {
+display: flex;
+justify-content: center;
+height: 10px;
+align-items: center;
+}
+.circle {
+width: 15px;
+height: 15px;
+background: rgb(29, 15, 92);
+border-radius: 50%;
+}
+.line {
+display: block;
+width: 200px;
+height: 2px;
+background-color: rgb(29, 15, 92);
+}
+.contact {
+background-color: rgb(29, 15, 92);
+color: #efefef;
+margin-bottom: 0;
+padding: 50px 10vw;
+}
+.contact p {
+color: #efefef;
+}
+
+.social {
+background-color: rgb(29, 15, 92);
+padding: 0 10vw 20px 10vw;
+}
+
+.social #icon {
+color: #efefef;
+font-size: 24px;
+text-decoration: none;
+margin-right: 20px;
+}
+
+.social #icon:hover {
+opacity: 0.3;
+}
+
+@media (max-width:900px){
+    .head img {
+        display: none;
+    }
+    .head {
+        height: 100vh;
+        background: linear-gradient(rgba(29, 15, 92,0.8),rgba(29, 15, 92,0.8)),url(./paul.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+    }
+    h1 {
+        font-size: 44px;
+        line-height: 48px;
+        margin-bottom: 20px;
+    }
+    #start {
+        width: 100%;
+    }
+    div.flex {
+        display: flex;
+        margin: 50px auto;
+        width: 100%;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .flex img {
+        height:200px;
+        width: 200px;
+        margin: auto;
+        display: block;
+        object-fit: contain;
+    }
+    .text {
+        margin: 30px 0;
+    }
+
+    .separator {
+        display: none;
+    }
+
+    .flex * {
+        width: 100%;
+    }
+    div.contact {
+        margin-bottom: 0;
+    }
+}
