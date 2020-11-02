@@ -1,0 +1,11 @@
+body{
+    text-align: center;
+    background-color: lightgray;
+}
+.name{
+    color:crimson;
+    text-decoration: underline;
+}
+#one{
+    color: darkolivegreen;
+}
