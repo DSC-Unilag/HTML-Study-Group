@@ -1,4 +1,5 @@
 # DSC UNILAG FRONT END STUDY GROUP
+# PART ONE
 ## HOW TO SUBMIT TO THE REPO
 ### i assume you know your way around the terminal, and that you've already installed git
 -  Login to your github account
@@ -35,7 +36,7 @@
  ![github pullrequest image](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/43040346998/original/Gw-I7-mlL6fioR5PPW_mHOx9KY67DDGQkA.png?1556061766)
  
  
- 
+ # PART TWO
 ### HOW TO SUBMIT FOR WEEK1 AND WEEK2(this is for those who already submitted earlier before this day 10/29/2020 10:40PM)
  some changes were made to the repo after you submittted, you currently do not have them in your own version,
  so i will take you through this guide on how you can update your version of this repo to our current version.
@@ -52,3 +53,22 @@
 - then once you are done you will see two folders **WEEK1** and **WEEK2**, in /2020/HTML_CSS rename your assignments to your fullname and move them to their respective week folder,
 - commit your changes and then push
 - that should be all, if you encounter any issue, do well to ask on the whatsapp group chat and i would be glad to help
+
+ # PART THREE
+### HOW TO SUBMIT FOR WEEK4
+```
+  git fetch upstream
+  git checkout master
+  git merge upstream/master 
+  git branch week4
+  git checkout week4
+```
+- then once you are done you will see a folder **WEEK4** in /2020/HTML-CSS, rename your assignments to your fullname and move them to their respective week folder,
+- you will see a submission.md file, open and fill the information asked, which are your fullname, assignment file or foldername, and your phone number, follow the example given in the file
+- commit your changes and then push( to commit and push do this 
+```
+   git add *
+   git commit -m "submitted week4 assignments"
+```
+- that should be all, if you encounter any issue, do well to ask on the whatsapp group chat and i would be glad to help
+
