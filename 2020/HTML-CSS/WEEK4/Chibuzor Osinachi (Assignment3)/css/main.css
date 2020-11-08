@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.head {
+    text-align: center;
+    border: 1px solid black;
+    background-color: green;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+section p {
+        padding: 10px;
+}
+
+section h1 {
+        text-align: center;
+        padding: 5px;
+}
+
+
+.section1 {
+    
+    position: relative;
+    border: 1px solid black;
+    background-color: #333;
+    padding: 30px;
+    margin: 80px 2.5%;
+    width: 95%;
+    text-align: justify;
+    color: white;
+    
+    margin-bottom: 10px;
+    
+}
+
+.section1 h1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:white;
+    background: red;
+    
+
+    
+}
+
+/******
+section2
+******/
+
+.section2 {
+    position: relative;
+    border: 1px solid black;
+    background-color: #333;
+    padding: 30px;
+    margin: 0px 2.5%;
+    width: 95%;
+    text-align: justify;
+    color: white;
+    margin-bottom: 10px;
+    
+    
+}
+
+.section2 h1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:black;
+    background: aqua;
+    
+
+    
+}
+
+/******
+section3
+******/
+.section3 {
+    position: relative;
+    
+
+    border: 1px solid black;
+    background-color: #333;
+    padding: 30px;
+    margin: 0px 2.5%;
+    width: 95%;
+    text-align: justify;
+    color: white;
+    margin-bottom: 10px;
+    
+    
+}
+
+.section3 h1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:white;
+    background: red;
+    padding: 5px;
+    margin-bottom: 15px;
+    
+}
+
+.section4 {
+    position: relative;
+    border: 1px solid black;
+    background-color: #333;
+    padding: 30px;
+    margin: 0px 2.5%;
+    width: 95%;
+    text-align: justify;
+    color: white;
+    margin-bottom: 40px;
+    
+    
+}
+
+.section4 h1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:black;
+    background: aqua;
+}
+
