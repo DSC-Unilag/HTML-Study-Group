@@ -53,3 +53,21 @@
 - then once you are done you will see two folders **WEEK1** and **WEEK2**, in /2020/HTML_CSS rename your assignments to your fullname and move them to their respective week folder,
 - commit your changes and then push
 - that should be all, if you encounter any issue, do well to ask on the whatsapp group chat and i would be glad to help
+
+ # PART THREE
+### HOW TO SUBMIT FOR WEEK4
+```
+  git fetch upstream
+  git checkout master
+  git merge upstream/master 
+  git branch week4
+  git checkout week4
+```
+- then once you are done you will see a folder **WEEK4** in /2020/HTML-CSS, rename your assignments to your fullname and move them to their respective week folder,
+- you will see a submission.md file, open and fill the information asked, which are your fullname, assignment file or foldername, and your phone number, follow the example given in the file
+- commit your changes and then push( to commit and push do this 
+```git add *
+   git commit -m "submitted week4 assignments"
+```
+- that should be all, if you encounter any issue, do well to ask on the whatsapp group chat and i would be glad to help
+
