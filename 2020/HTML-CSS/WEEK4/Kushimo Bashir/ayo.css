@@ -1,0 +1,94 @@
+  body{
+      background-color: #cdd1d6;
+  }
+  div{
+      position: relative;
+      top: 180px;
+  }
+header{
+    width: 100%;
+    margin: 0px auto;
+    position: fixed;
+    z-index: 1;
+
+}
+nav ul{
+    background-color: #16425b;
+    padding: 0px;
+    list-style-type: none;
+}
+nav a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #ffffff;
+    padding: 12px;
+}
+nav a:hover{
+    background-color: rgb(16, 16, 17)
+}
+section{
+    width: 900px;
+    margin: 0px auto;
+    background-color:#7AC7BB;
+    height: 300px;
+    border-radius: 10px;
+    font-family: 'Source Code Pro', monospace;
+
+}
+section h1,h3{
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+section img{
+    float: left;
+    border-radius: 150px; 
+    position: relative;
+    left: 12px;
+    top: 10px;
+
+}
+span{
+    display: block;
+    width: 800px;
+    position: relative;
+    left: 30px;
+    line-height: 25px;
+}
+.bashydee{
+    background-color:#2F91D6;
+    position: relative;
+    bottom: 12px;
+}
+main{
+    background-color: cadetblue;
+    position: relative;
+    bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+main p{
+      line-height: 25px;
+}
+@media screen and (min-width: 760px){
+     nav ul{
+         display: flex;
+         justify-content: flex-start;
+        
+     }
+     nav li{
+         flex-grow: 1;
+     }
+   
+}
+@media screen and (max-width: 1000px){
+    section{
+        display: block;
+        width: 470px;
+
+    }
+    span{
+        width:400px;
+         line-height: normal;
+    }
+}
