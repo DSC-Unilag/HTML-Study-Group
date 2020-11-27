@@ -1,0 +1,12 @@
+#one{
+    position: relative;
+}
+#two{
+    position: sticky;
+}
+#three{
+    position: relative;
+}
+#four{
+    position: static;
+}
