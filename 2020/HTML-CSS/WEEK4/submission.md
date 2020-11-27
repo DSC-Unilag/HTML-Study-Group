@@ -2,4 +2,4 @@
 ##eg
 ##john doe - johndoe or johndoe.js - 12345679
 ----------------------------------------------
-##Adebiyi Oluwaseyi - Adebiyi Oluwaseyi(@praizcodes)- 09066093710
+##Adebiyi Oluwaseyi - Adebiyi Oluwaseyi- 09066093710
