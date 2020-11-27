@@ -32,7 +32,7 @@ Tablet
     
     .section2 {
     
-        position: relative;
+        position: sticky;
         border: 1px solid black;
         background-color: #333;
         padding: 30px;
@@ -59,7 +59,8 @@ Tablet
 
     .section4 {
     
-        position: relative;
+        position: absolute;
+        left: 1000px;
         border: 1px solid black;
         background-color: #333;
         padding: 30px;
@@ -78,12 +79,11 @@ Laptop
 
 @media screen and (min-width: 1200px) {
     body {
-        background-color: purple;
+        background-color: #777;
     }
 
     .section1 {
-    
-        position: relative;
+        position: static;
         border: 1px solid black;
         background-color: #333;
         padding: 30px;
@@ -96,7 +96,7 @@ Laptop
     }
 
     .section2 {
-        position: relative;
+        position: sticky;
         border: 1px solid black;
         background-color: #333;
         padding: 30px;
@@ -130,13 +130,5 @@ Laptop
         text-align: justify;
         color: white;
         float:left;
-    }
-
-    .section4:after {
-            clear: both;
-    }
-
-    
-
-    
+    }   
 }
