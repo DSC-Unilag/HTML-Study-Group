@@ -12,7 +12,13 @@
     font-size: 270%;
     padding: 1em;
     text-align: center;
-    margin-top: 200px !important;
+    margin-top: 100px !important;
+    position: fixed;
+    left: 300px;
+    background-color: rgb(253, 218, 165);
+    border-radius: 15px;
+    z-index: 10000;
+    
 }
 
 ul, li{
@@ -61,17 +67,21 @@ ul, li{
   
  section{
     padding: 2em;
+    
  }
 
  /*----FIRST SECTION------*/
  #section-1{
-     position: relative;
+     position: sticky;
      margin-bottom: 50px !important;
-     top: 0px;
+     top: 100px;
      bottom: 0px;
      left: 0px;
      right: 0px;
      border-radius: 15px;
+     margin-top: 500px;
+     background-color: #ffffff;
+     z-index: 20;
  }      
  #section-1:hover{
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
@@ -81,7 +91,7 @@ ul, li{
 
  /*----SECOND SECTION------*/
 #section-2{
-    position: relative;
+    position: static;
     margin-bottom: 50px !important;
     top: 0px;
     bottom: 0px;
@@ -112,12 +122,12 @@ ul, li{
 
  /*----FOURTH SECTION------*/
 #section-4{
-    position: relative;
+    position: absolute;
     margin-bottom: 50px !important;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+    top: 300px;
+    bottom: 50px;
+    left: 10px;
+    right: 10px;
     border-radius: 15px;
 }
 #section-4:hover{
