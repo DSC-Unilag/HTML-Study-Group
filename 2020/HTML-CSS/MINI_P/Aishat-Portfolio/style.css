@@ -300,16 +300,31 @@ footer img{
     h3{
         font-size: 28px ;
     }
+     .skills{
+        flex-direction: column;
+    }
     .skills div{
-        padding: 20px 5px;
+        border: 0;
+        margin: 10px auto;
+        box-shadow: none;
+        width: 100%;
+    }
+    .skills div:nth-child(1), .skills div:nth-child(2){
+        border-radius: 0;
+        margin: 15px auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
     .skills div p span{
         font-size: 18px;
         margin: 5px 0 0;
     }
     figcaption{
-        padding: 20px;
+        padding: 70px 0 0;
         font-size: 18px;
+    }
+    #contact{
+        margin-top: 20px;
     }
     #contact button{
         font-size: 18px;
