@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(194, 190, 138);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table,td,th{
+    border: 1px solid black;
+}
+
+th{
+    background-color: rgb(0, 183, 255);
+    color: whitesmoke;
+}
+
+h2{
+    color: palevioletred;
+}
+
+button{
+    color: white;
+    background-color: royalblue;
+    width: 15%;
+    padding: 10px;
+    border: 1px solid royalblue;
+    border-radius: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+    display: block;
+}
+
+button:hover{
+    color: black;
+    background-color: burlywood;
+}
