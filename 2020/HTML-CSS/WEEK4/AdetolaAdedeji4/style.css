@@ -1,0 +1,84 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+body
+{
+  background-color: darkkhaki;
+}
+
+.container,.cont1, .cont2, .cont3, .cont4
+{
+  padding:40px;
+  width:50%;
+  height:auto;
+}
+.container
+{
+  background-color: coral;
+  position: fixed;
+  z-index: 1;
+}
+
+.container .head,.cont1 .sect1, .cont2 .sect2, .cont3 .sect3, .cont4 .sect4
+{
+  width:90%;
+  padding:30px;
+  margin: 0 auto;
+}
+
+.container .head
+{
+  background-color: cornflowerblue;
+}
+
+.cont1, .cont2, .cont3, .cont4
+{
+  background-color: crimson;
+}
+.cont1
+{
+  position: absolute;
+  top:300px;
+  left:500px;
+}
+@media only screen and (max-width:580px)
+{
+  .cont1
+  {
+    top:2000px;
+    left:50px;
+  }
+}
+.cont1 .sect1, .cont2 .sect2, .cont3 .sect3, .cont4 .sect4
+{
+  background-color: cyan;
+}
+
+.cont2
+{
+  position:relative;
+  top:600px;
+  left:30px;
+}
+
+@media only screen and (max-width:800px)
+{
+  .cont2
+  {
+    top:1500px;
+  }
+}
+
+.cont3
+{
+  position:static;
+}
+
+.cont4
+{
+  position:sticky;
+  left:600px;
+}
+
