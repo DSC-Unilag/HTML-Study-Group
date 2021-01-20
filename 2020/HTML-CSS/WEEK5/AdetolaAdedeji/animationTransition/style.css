@@ -1,0 +1,31 @@
+.animated
+{
+  height:200px;
+  width:200px;
+  background-color: blue;
+  animation-name: change;
+  animation-duration:5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
+}
+
+@keyframes change 
+{
+  from{background-color: blue; width:200px;}
+  to{background-color: green; width:400px}
+}
+
+.transit
+{
+  height:200px;
+  width:200px;
+  background-color: blue;
+  transition:width 5s;
+  transition-timing-function: ease-out;
+}
+
+.transit:hover
+{
+  width:400px;
+  background-color: green;
+}
