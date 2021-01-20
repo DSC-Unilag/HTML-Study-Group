@@ -9,5 +9,5 @@
 - Aishat Dosunmu - AishatDosunmu - 08184498068
 - Nusaybah Fuad-Gafar - Nusaybah Fuad-Gafar - 08154045637
 - chibuzor - chibuzor osinachi - 0903716291
--James Efienemokwu- James Efienemokwu,week 5.html - 08166843897
-
+- James Efienemokwu- James Efienemokwu,week 5.html - 08166843897
+- Adebiyi Oluwaseyi - Adebiyi Oluwaseyi - 09066093710
