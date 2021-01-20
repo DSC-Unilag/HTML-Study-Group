@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .animated {
+      background-color: blue;
+      text-align: center;
+      animation-name: changing;
+      animation-duration: 5s;
+    }
+
+    @keyframes changing {
+      0%{background-color: blue;}
+      100%{background-color: green; height: 100px;}
+    }
+
+    div {
+      background-color: blue;
+      transition: 5s;
+      text-align: center;
+    }
+
+    div:hover{
+      background-color: green;
+      height: 100px;
+    }
+
+  </style>
+  <title>Document</title>
+</head>
+<body>
+  <div class="animated">
+    <h1>This is an animated div</h1>
+  </div>
+
+  <div class="transit">
+    <h1>Transited div</h1>
+  </div>
+</body>
+</html>
