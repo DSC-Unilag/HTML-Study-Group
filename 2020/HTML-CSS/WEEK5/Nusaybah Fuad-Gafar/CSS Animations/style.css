@@ -1,0 +1,20 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+  }
+  
+  @keyframes example {
+    0%   {background-color:green; width: 25%; }
+    25%  {background-color: blue; width: 50%; }
+    50%  {background-color:green; width: 75%; }
+    75%  {background-color:blue;  width: 100%;}
+    100% {background-color: green;width: 25%; }
+  }
+
+

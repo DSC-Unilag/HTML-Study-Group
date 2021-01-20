@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 100px);
+  grid-gap: 10px;
+}
+
+.grid1 {
+  background-color: blue;
+  grid-column: 1/6;
+  color: white;
+  text-align: center;
+}
+
+.grid2 {
+  background-color: green;
+  grid-column: 1/2;
+  grid-row: 2/5;
+  color: white;
+  text-align: center;
+}
+
+.grid3 {
+  background-color: black;
+  grid-column: 2/5;
+  grid-row: 2/5;
+  color: white;
+  text-align: center;
+}
+
+.grid4 {
+  background-color: red;
+  grid-column: 5/6;
+  grid-row: 2/5;
+  color: white;
+  text-align: center;
+}
+
+.grid5 {
+  background-color: orange;
+  color: white;
+  grid-column: 1/6;
+  text-align: center;
+}

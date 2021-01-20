@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    display: flex;
+    width: 100%;
+    padding: 20px 50px; 
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+} 
+.logo img{
+    width: 170px;
+    transition: transform 3s cubic-bezier(0.23, 1, 0.320, 1);
+}
+.logo img:hover, footer img:hover{
+    transform: rotate(360deg) scale(1.5);
+}
+nav{
+    width: 100%;
+    text-align: right;
+}
+
+a{
+    color: #141c3a;
+    outline: none;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 300;
+    margin: 0 10px;
+
+}
+a:hover, a:active{
+   color: #c7ea46;
+}
+
+#home{
+    padding: 10px 10px 0;
+    margin: 125px auto 0;
+    text-align: center;
+}
+.avatar{
+    margin-bottom: -50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: inline-block;
+}
+.avatar:hover{
+    transform: scale(1.2);
+}
+
+#about{
+    background-color: #c7ea46;
+    text-align: center;
+    padding: 75px;
+}
+h3{
+    font-weight: 700px;
+    font-size: 32px;
+}
+.about-text{
+    line-height: 35px;
+}
+.skills{
+    display: flex;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+.skills div {
+   border: 2px solid #E6ECF8;
+   padding: 60px 40px;
+    margin: -70px auto;
+    width: 50%;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #E6ECF8;
+}
+.skills div:nth-child(1){
+    border-radius:15px 0 0 15px;
+    border-right: 0px;
+    margin-right: 0;
+}
+.skills div:nth-child(2){
+    border-radius:0 15px 15px 0;
+    margin-left: 0;
+}
+
+.skills div p {
+    font-size: 18px;
+    line-height: 30px;
+}
+.skills div p span{
+    display: block;
+    font-size: 20px;
+    color: #c7ea46;
+    font-weight: 500;
+   
+}
+.skills .icon{
+    width: 20%;
+}
+figure{
+    width: 100%;
+    height: auto;
+    margin:  20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #E6ECF8;
+    position: relative;
+    transition: all 0.3s;
+}
+.works{
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+figcaption{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #141c3a;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 100px 0 0;
+}
+figure:nth-of-type(4){
+    height: 600px;
+}
+figure:nth-of-type(4) figcaption{
+    padding: 200px 0 0;
+}
+figure:hover{
+    transform: scale(0.9);
+}
+figure:hover figcaption{
+    opacity: 1; 
+}
+figcaption a {
+    color: #fff;
+    border: 3px solid #c7ea46;
+    border-radius: 50px;
+    display: block;
+    font-size: 18px;
+    padding: 10px ;
+    width: fit-content;
+    margin: 10px auto;
+}
+figcaption a:hover{
+    background-color: #c7ea46;
+    color: black;
+}
+
+h4{
+    font-size: 24px;
+    margin: 15px 0 5px;
+    font-weight: 700;
+}
+#contact{
+    margin: 70px 30px 0;
+    background-color: #c7ea46;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+#contact button{
+    margin-top: 10px;
+    background-color: #c7ea46;
+    border: black solid 3px;
+    border-radius: 30px;
+    padding: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 1s ease;
+}
+#contact button:hover{
+    background-color: black;
+    color: #c7ea46;
+    transform: scale(1.2);
+}
+footer{
+    background-color: white;
+    margin: 0 auto;
+    padding: 80px 20px 50px;
+    text-align: center;
+}
+footer img{
+    width: 150px;
+    display: block;
+    margin: auto;
+    transition: transform 5s ease-in-out;
+}
+.links{
+    margin: 50px 0;
+}
+.links a{
+    border: 2px solid #c7ea46;
+    border-radius: 100%;
+    padding: 10px 5px 10px 10px;
+}
+.links a:hover{
+    background-color: black;
+    border: none;
+}
+@media screen and (min-width: 1040px){
+    #home{
+        width: 100%;
+    }
+    h1{
+        font-weight: 700;
+        line-height: 45px;
+        margin: 20px 0;
+        font-size: 32px;
+    } 
+    p{
+        font-size: 24px;
+        font-weight: 400;
+        margin: 15px 0 25px;
+    } 
+    .skills div p span{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1039px) and (min-width: 745px){
+    nav a{
+        font-size: 22px;
+    }
+    #home{
+        width: 100%;
+    }
+    h1{
+        font-size: 27px;
+    }
+    p{
+        font-weight: 400;
+        margin: 15px 0 25px;
+        font-size: 20px;
+    }
+    #about{
+        padding: 75px 20px;
+    }
+    .skills div p span{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 745px) and (min-width: 200px){
+    header{
+        position: static;
+        padding: 10px 2px;
+        margin-bottom: 5px;
+        display: unset;
+
+    }
+    .logo{
+        display: block; 
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .logo img:hover, footer img:hover{
+        transform: rotate(360deg) scale(0.5);
+    }
+    nav{
+        text-align: center;
+        margin: 5px auto;
+    }
+    nav a {
+        margin: 0 3px;
+        font-size: 20px;
+    }
+    #home{
+        margin-top: 5px;
+        width: 100%;
+    }
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-weight: 400;
+        font-size: 18px;
+        margin: 10px;
+    }
+    #about{
+        width: 100%;
+        padding: 75px 10px ;
+    }
+    h3{
+        font-size: 28px ;
+    }
+     .skills{
+        flex-direction: column;
+    }
+    .skills div{
+        border: 0;
+        margin: 10px auto;
+        box-shadow: none;
+        width: 100%;
+    }
+    .skills div:nth-child(1), .skills div:nth-child(2){
+        border-radius: 0;
+        margin: 15px auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .skills div p span{
+        font-size: 18px;
+        margin: 5px 0 0;
+    }
+    figcaption{
+        padding: 70px 0 0;
+        font-size: 18px;
+    }
+    #contact{
+        margin-top: 20px;
+    }
+    #contact button{
+        font-size: 18px;
+    }
+}
