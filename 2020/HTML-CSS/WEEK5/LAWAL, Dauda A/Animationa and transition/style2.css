@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    padding: 4px;
+    margin: 0;
+    padding: 0;
+    color: aqua;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+}
+.box div{
+    background-color:rgb(252, 30, 30);
+    padding: 70px;
+    margin: 5px;
+}
+.box > div{
+    text-align: center;
+    /* padding: 20px; */
+}
+@keyframes change{
+    0% {
+        background-color: blue;
+        width: 90%;
+        margin: auto;
+    }
+    100% {background-color: green;
+    width: 100%; }
+}
+#one{
+    grid-area: one;
+    animation: change 5s ease-out infinite;
+    transition-property: width, margin;
+    transition-duration: 5s;
+    transition-timing-function: ease-out;
+
+}
+#one:hover{
+    width: 70%;
+    margin: auto;
+}
+#two{
+    grid-area: two;
+} 
+#three{
+    grid-area: three; 
+}
+#four{
+    grid-area: four;
+
+}
+#five{
+    grid-area: five;
+}  
+.box{
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: repeat( auto-fill, minmax(200px, 1fr));
+    grid-template-areas: 
+    "one one one one one one"
+    "one one one one one one"
+    "two three three three three four"
+    "two three three three three four"
+    "two three three three three four"
+    "two three three three three four"
+    "five five five five five five"
+    "five five five five five five";
+    grid-gap: 10px;
+}
