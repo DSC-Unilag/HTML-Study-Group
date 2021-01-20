@@ -1,0 +1,28 @@
+header {
+  background-color:blue;
+  position: fixed;
+  top: 50px;
+}
+
+.section1 {
+  background-color: aquamarine;
+  position: static;
+}
+
+.section2 {
+  background-color: brown;
+  position: absolute;
+  bottom: 100px;
+}
+
+.section3 {
+  background-color: blueviolet;
+  position: sticky;
+  right: 50px;
+}
+
+.section4 {
+  background-color: chartreuse;
+  position: relative;
+  left: 120px;
+}
