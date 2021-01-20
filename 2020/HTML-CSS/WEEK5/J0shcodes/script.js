@@ -1,0 +1,1 @@
+console.log("Hello, this is Joshua, and I'm a frontend developer.")
