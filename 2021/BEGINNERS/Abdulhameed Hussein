@@ -1,0 +1,81 @@
+#HTML
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta name="viewports" center="width=device-width, initial scale=1.0">
+	<title>About Me</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<style>
+	
+</style>
+<body>
+<header>
+<section class="links">
+<a href="url">Home</a>
+<a href="url">Profile</a>
+<a href="url">Contact</a>
+<a href="url">Portfolio</a>
+</section>
+<hr />
+
+<section class="img">
+ <img src="me.jpg" alt="my photo" width="100%" height="auto">
+</section>
+</header>
+
+
+<section class="myProfile">
+<hr />
+<h1> MY PROFILE</h1>
+<hr />
+
+<p> Hello there, I am Abdulhameed, I am an engineering student of University of Lagos. I am currently residing at Ogun State around Ifo Local Govt. I am 18yrs old.</p>
+<p> DSC Unilag is one of the cool society I am in currently, teaching to code and maintaining a balance between the theoretical and the practical aspects of an engineer has been the number one goal of DSC, although it is not strictly for engineering students only, and it is a very helpful society that you wouldn't afford not being in, so if you are ready to join us, you can register at 
+<a href="www.dscunilag.com">DSC unilag's website</a>. </p>
+</section>
+<hr />
+
+<section class="hobbies">
+<h4> my hobbies include: 👇</h4>
+<ul>
+<li> 
+	Gaming 🎮
+	<dd>"would like to, but no time to"</dd>
+ </li>
+<li>Coding 💻
+<dd>"wouldn't have been easy if not for God who helped me with DSC" 🤸</dd></li>
+<li>listening to Religious Preaching 👂 🔊
+<dd>"it motivates me and make me full of energy"</dd></li>
+<li>Reading Educative Books 📚</li>
+<li>Riding bicycle 🚴
+<dd>"don't have the chance currently because my bicycle has developed a fault" 🤕</dd></li>
+<li>helping my mom
+<dd>"because i am the last born"</dd></li>
+<li>i love stunting too
+<dd>"it has been a while i have practice it"</dd></li>
+</ul>
+</section>
+
+<footer>
+To	contact me, check me at <a href="mailto:labdu325@gmail.com">my mail</a>
+</footer>
+
+
+	</body>
+</html>
+
+
+#CSS
+
+h1, footer { text-align:center; }
+ .myProfile { backbackground-color:#cccccc;}
+ .hobbies { background-color:#cccccc; padding:5px 10px; }
+ footer { background-color:#888888; padding:5px; }
+ .myProfile { background-color:#cccccc; padding:5px; }
+
+
+#PICTURE
+me.jpg
