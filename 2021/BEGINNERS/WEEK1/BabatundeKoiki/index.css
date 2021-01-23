@@ -1,0 +1,46 @@
+a > img {
+    width: 20px;
+    border-radius: 4px;
+}
+nav > ul {
+    text-align: right;
+}
+
+header center > img {
+    width: 200px;
+    height: 100px;
+    border-radius: 60% 60% 60% 60%;
+}
+/* 
+.name {
+    float: left;
+} */
+
+.github {
+    height: 200px;
+}
+
+.nav > li {
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    background-color: greenyellow;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    color: rgb(69, 42, 143);
+}
+
+section {
+    margin:10px 60px 10px 140px;
+    border:10px 10px blue;
+}
+
+#main {
+    font-size: 20px;
+}
