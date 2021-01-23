@@ -1,0 +1,60 @@
+.header{
+	background: black;
+}
+.header div{
+   font-size: 100px;
+   text-align: center;
+   background: black;
+   color: white;
+   
+}
+.links{
+	margin-left: 15px;
+	margin-right: 15px;
+	text-decoration: none;
+	color: white;
+
+}
+.footer{
+	display: flex;
+	background: black;
+	height: 300px;
+	color: white;
+}
+
+.next_content a{
+	margin-left: 150px;
+	margin-top: 20px;
+	margin-bottom:  33px;
+	text-decoration: none;
+	color: white;
+}
+.content{
+	display: flex;
+}
+.help div{
+	display: flex;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+.visit div{
+	margin-left: 150px;
+	margin-top: 20px;
+	margin-bottom: 33px;
+}
+.stay_connected div{
+	margin-top: 20px;
+	margin-bottom: 33px;
+	margin-left: 140px;
+}
+.images .image{
+	display: inline;
+	margin-left: 15px;
+
+
+}
+.footer_foot div{
+	background: black;
+	color: white;
+	text-align: center;
+}	
