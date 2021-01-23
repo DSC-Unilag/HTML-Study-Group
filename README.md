@@ -100,12 +100,19 @@ eg
  - there is a likely hood that after your push you will see a big brown button at the top of your forked repo with a compare and pull request button 
  just click on it and it will take you directly to the create pull request view.
  
- - incase you cant see this button on your repo dont panic
- - look at the left of your repo you will see a dropdown button with a text of master, click on it and switch to cohort2_beginners folder
- - then you will see create pull request as it is on the image below, click on it, it will also take you to the create pull request view
+ ![pull request](https://i.ibb.co/w05kddw/Screenshot-681.png "creating a pull request")
+ 
+ - incase you cant see this button on your repo dont panic.
+ 
+    ![pr_nobtn](https://i.ibb.co/6mLTzcX/Screenshot-679-LI.jpg "pull request no button")
+    
+ - (1) look at the left of your repo you will see a dropdown button with a text of master, click on it and switch to cohort2_beginners folder
+ 
+ - (2) then you will see create pull request as it is on the image below, click on it, it will also take you to the create pull request view
  
  see image of the pull request view below
  
+ ![prview](https://i.ibb.co/8BcKDHM/Screenshot-682.png "pull request view")
  
  - in the textbox write anything to reflect your assignment changes like what you did when you commited your assignment.
  
