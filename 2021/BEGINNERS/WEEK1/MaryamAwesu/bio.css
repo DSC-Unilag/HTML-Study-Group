@@ -1,0 +1,78 @@
+/*--
+*{
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+--*/
+
+.main{
+    background-color: lightblue;
+    margin: 10px;
+}
+
+h1, h2 {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+section > ul{
+    font-size: 18px;
+    line-height: 170%;
+    text-align: ;
+}
+
+.article{
+    background-color: lightseagreen;
+    margin: 10px;
+    font-size: 19px;
+    letter-spacing: 0.3px;
+    line-height: 150%;
+    
+}
+/*--
+h2{
+    padding: 5px;
+}
+--*/
+
+ h3, h4{
+    margin:10px ;
+    padding: 5px;
+}
+
+p{
+    margin: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.contact{
+    background-color: darkcyan;
+    color: whitesmoke;
+    margin: 10px;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.contact > p{
+    padding: 10px;
+}
+
+li a{
+    color: brown;
+}
+
+footer{
+    text-align: center;
+    margin: 10px;
+    padding: 3px;
+    background-color: darksalmon;
+    color: white;
+}
+
+p a{
+    color: purple;
+}
