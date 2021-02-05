@@ -1,0 +1,99 @@
+<!Doctype html>
+<html lang="en">
+<title>Beginners Frontend</title>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <Link rel="stylesheet" type="text/css" href="main.css">
+  <!--External Link goes down here-->
+  <script src="https://kit.fontawesome.com/99021df4e2.js" crossorigin="anonymous"></script>
+  <!-- Google Font links -->
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--Hero section-->
+  <div id="header">
+    <nav>
+      <div class="logo">Drealzeal</div>
+      <div class="openMenu"><i class="fas fa-bars"></i></div>
+      <ul class="mainMenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li <li class="closeMenu">
+        <i class="fas fa-times"></i>
+        </li>
+      </ul>
+    </nav>
+    <!--About US section-->
+    <main id="main">
+      <div id="about-us">
+        <h1 class="main-head">The Journey of FrontEnd</h1>
+        <div class="about-writeup">
+          <h2 class="about-title">The leader in interactive VR</h2>
+          <p class="about-info"> Founded in 2011, Loopstudios has been producing world-class virtual reality
+            projects for some of the best companies around the globe. Our award-winning
+            creations have transformed businesses through digital experiences that bind
+            to their brand.</p>
+        </div>
+      </div>
+    </main>
+    <!--float right rounded image-->
+    <div class="container" style="padding: 25px 50px 75px 100px;">
+      <p>
+      <h2>Phillp Bur</h2>
+      <img src="man.jpg" alt="happy man" style="width: 42px; height: 42px; float: right; border-radius: 50%;">Founded in
+      2011, Loopstudios has been producing world-class virtual reality
+      projects for some of the best companies around the globe. Our award-winning
+      creations have transformed businesses through digital experiences that bind
+      to their brand.
+      </p>
+    </div>
+    <hr>
+    <!--float left rounded image-->
+    <div class="container" style="padding: 25px 50px 75px 100px;">
+      <p>
+      <h2>Phillip Bur</h2>
+      <img src="man.jpg" alt="happy man" style="width: 42px; height: 42px; float: left; border-radius: 50%;">Founded in
+      2011, Loopstudios has been producing world-class virtual reality
+      projects for some of the best companies around the globe. Our award-winning
+      creations have transformed businesses through digital experiences that bind
+      to their brand.
+      </p>
+    </div>
+    <div class="container" style="padding: 15px 32px;">
+      <button class="button" style="font-size: 16px;
+           text-align: center; border-radius: 8px; background-color: #4ca543; border: none; display: inline-block; width: 64px; margin: 0;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);">Next</button>
+    </div>
+    <div class="forms">
+      <h2 class="form" style="text-align: center;">Fill in the form</h2>
+      <form>
+        <div>
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+    </div>
+</body>
+
+</html>
