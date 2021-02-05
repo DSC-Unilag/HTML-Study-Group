@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dynasty Associates|Applications </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header id="header">
+    <h1>Dynasty Associates Application</h1>
+  </header>
+  <main id="main">
+    <p class="important">All fields must be filled. Failure to do so will result in termination of application
+    </p>
+    <form action="" method="get" autocomplete="on">
+    <label for="fname">First name: </label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last name: </label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="phone">Phone number: </label>
+    <input type="number" name="phone" id="phone"><br><br>
+    <label for="email">Email: </label>
+    <input type="email" name="email" id="email"><br><br>
+    <label for="gender">Gender: </label>
+    <select>
+      <option value="Male">Male</option>
+      <option value="Female">Female </option>
+      <option value="Others">Others </option>
+      <option value="Prefer not to say">Prefer not to say</option>
+    </select>
+    <p>Are you married?
+      <label for="yes">Yes</label>
+      <input type="radio" name="ownaccount" id="yes">
+      <label for="no">No</label>
+      <input type="radio" name="ownaccount" id="no">
+    </p>
+    <hr>
+    <p>In not more than 150 words, tell us why you want to join Dynasty Associates. </p>
+    <textarea name="message"  id="message" rows="8" cols="40"></textarea>
+    <input type="submit" value="Submit" >
+    
+    </form>
+  </main>
+  <hr>
+  <footer id="footer"><span class="blue">&copy;2021</span> Created by Enjeghe Onukak.<br> Send us a mail. <a href="mailto:enjeghe2@gmail.com" >enjeghe2@gmail.com</a>
+  </footer>
+
+</body>
+
+</html>
