@@ -1,74 +1,128 @@
 # DSC UNILAG FRONT END STUDY GROUP
 # PART ONE
 ## HOW TO SUBMIT TO THE REPO
-### i assume you know your way around the terminal, and that you've already installed git
--  Login to your github account
- - **FORK THE REPO**: at the top right of the repo, you will see three buttons; **watch**, **star**, and **fork**. click on fork see the image below
- 
- ![fork](https://i.ibb.co/9p4F7Ph/fork.jpg)
- 
- - a modal might pop up and you will be asked to choose an account to fork to, choose your github account, and then a copy of this repo will be created for you in your account.
- - go to the copy that was created for you, look for a brown button with **code**, click on it, you will see a dropdown, copy the link in the dropdown
- 
- ![fork](https://i.ibb.co/8DKHgC7/image.png)
- 
- - open your terminal, go to the directory you want  your project to be eg `cd c:/user/myuser/documents/` this means i should navigate to my documents directory
- - then type 
-   `git clone "paste the link you copied from your copy/version of this repo here"` eg 
-   `git clone https://github.com/ogheneovo12/HTML-Study-Group.git`
- - if you open your file explorer, you will see the project folder in your directory, open it with the code editor of your choice, open the /2020 directory, then open the HTML-CSS di rectory (i.e /2020/HTML-CSS)
- - you will see different folders in these format **WEEK1**, **WEEK2**, open the current assignment week eg **WEEK1**
- - **CREATE A NEW BRANCH**: to create a new branch enter into your terminal `git branch WEEK1` (you are free to name that **WEEK1** anything)
- - then enter `git checkout WEEK1` (replace **WEEK1** with whatever name you used in the previous step)
- - create a new file/folder (this depends on the given assignment's instruction)
- - your fullname should be the name of the file or folder
- - do your assigmnet in the file or folder you created with your name, when you are done open your terminal and
- - type `git add *`
- - then type `git commit -m "submitting week 1 assignment, ogheneovo"` (you can type anything you want within the double quote, but let it reflect what you did)
- - then enter `git push` in your repo, ensure you have internet
- - once you are done, open your own version of this repo on github, you will see a big brown button at the top with a message of **COMPARE AND PULL REQUEST**, click on it, 
- 
- ![github pullrequest image](https://i.ytimg.com/vi/rgbCcBNZcdQ/maxresdefault.jpg)
- 
- - follow through till the pull request have been created. voilla that's all. see image below, it should be something like this
- 
- 
- ![github pullrequest image](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/43040346998/original/Gw-I7-mlL6fioR5PPW_mHOx9KY67DDGQkA.png?1556061766)
- 
- 
- # PART TWO
-### HOW TO SUBMIT FOR WEEK1 AND WEEK2(this is for those who already submitted earlier before this day 10/29/2020 10:40PM)
- some changes were made to the repo after you submittted, you currently do not have them in your own version,
- so i will take you through this guide on how you can update your version of this repo to our current version.
- 
 
-- **COPY ORIGINAL REPO GIT URL**: at the top of this page you will see a brown button with text of **code** click it, a dropdown will open, copy the link in the dropdown (https://github.com/DSC-Unilag/HTML-Study-Group.git **this is the link copy it**) 
-- then in terminal enter `git remote add upstream https://github.com/DSC-Unilag/HTML-Study-Group.git`
-- then enter the following commands in your terminal
-- ```# Sync your fork
-  git fetch upstream
-  git checkout master
-  git merge upstream/master 
-  ```
-- then once you are done you will see two folders **WEEK1** and **WEEK2**, in /2020/HTML_CSS rename your assignments to your fullname and move them to their respective week folder,
-- commit your changes and then push
-- that should be all, if you encounter any issue, do well to ask on the whatsapp group chat and i would be glad to help
+### Perequisite 
+You should have git installed on your system.
+you can download git from here [Git Download](https://git-scm.com/downloads).
+for those on termux follow this tutorial on how to setup git on your mobile device [setup git on termux with ssh login](https://www.youtube.com/watch?v=qQzDXjPa-14&t=1749s).
+so if you have done all of the above we can proceed.
 
- # PART THREE
-### HOW TO SUBMIT FOR WEEK4
-```
-  git fetch upstream
-  git checkout master
-  git merge upstream/master 
-  git branch week4
-  git checkout week4
-```
-- then once you are done you will see a folder **WEEK4** in /2020/HTML-CSS, rename your assignments to your fullname and move them to their respective week folder,
-- you will see a submission.md file, open and fill the information asked, which are your fullname, assignment file or foldername, and your phone number, follow the example given in the file
-- commit your changes and then push( to commit and push do this 
-```
-   git add *
-   git commit -m "submitted week4 assignments"
-```
-- that should be all, if you encounter any issue, do well to ask on the whatsapp group chat and i would be glad to help
+## NOTE: if you forked and cloned this repo earlier before following this guide, please and please delete it from both your local system and github account
+## to delete from github, open the forked repo on github, then go to settings, scroll down to DANGER ZONE session, then click the  delete repository option.
+
+### reading guide 
+this guide will be covering users on termux and also users on their system 
+where u see a statement marked with ##termux at the end your will ##etrm, know that it's a termux specific code or guide.
+
+### STEP 1
+DSC Unilag have a repo where your assignment will be submitted to, Inorder  to submit your assignment you will have to have a copy of that repo in your account
+#### How do i get to do that?
+**Fork the repo**:-
+- ensure you are logged  in to your github account.
+- visit our dsc repo link here [repo Link](https://github.com/DSC-Unilag/HTML-Study-Group).
+- at the right top you will see three button click on the fork github repo (see image below).
+
+ ![fork](https://i.ibb.co/S3z8dSZ/Screenshot-675-LI.jpg "fork a repo")
+ 
+- when you have done that, you will see a copy of the html-study-group on your repo.
+- look for the code button, click on it, and copy the address in the opened dropdown  (see image below ).
+
+![code](https://i.ibb.co/7bn7MTr/Screenshot-678-LI.jpg "code copy link")
+
+- for those on mobile you will have to switch to desktop view to see the code button
+
+### STEP 2
+##### clone the repo
+- Now go to your terminal, could be powershell, command prompt or git bash, 
+- you can search for git bash on your system and then launch it. 
+- git bash is installed alongside git.
+## termux
+termux users will have to setup their storage access first by running .
+``` termux-setup-storage ```
+- it will prompt for permission to access your android storage, allow it.
+- something that termux users should note is that, file created outside storage/shared, your phone device cant access them only termux can access them, so incase you have a mobile editor for writting your code, you would love to make it acccessible. 
+- to do that you will have to make termux point to storage/shared 
+- so do ```cd storage/shared ```
+## etrm
+
+- now enter this
+``` git clone "the link you copied from the code button  ```
+*** ensure to click enter whenever u copy/type a command ***
+
+now you should see something similar to the image below
+
+![cloning terminal](https://i.ibb.co/PW2DvpN/Screenshot-680.png "cloning repo")
+
+- now enter this ```ls```
+- names of files in your current directory will be listed, try checking if you will see the html-study-group folder
+
+- after then cd/enter into the html-study-group folder
+```cd html-study-group```
+
+### STEP 3
+##### checkout to beginners braanch
+- you will have to enter into the branch containing the 2021/Beginner/Week1+ folder (Note wmeek1+ means it applies for week1-8), so to do that, type
+``` git checkout cohort2_beginners ```
+
+
+### STEP 4
+##### submitting your assignment
+- use your file explorer/file manager to open the html-study-group folder.
+- you will see the 2021 folder, open it, then you will see the week1 folder.
+- when you open the week 1 folder you will see a submission.md file.
+- inside the week1 folder, create your assignment folder.
+- if you have already done your assignment in another folder, copy it and place it in the 2021 folder.
+- ensure that your assignment folder name is your fullname.
+- once you are done with your assignment open the submmision.md file.
+- you will see a sample format for filling your submission details,
+eg
+## fullname - foldername - whatsappnumber
+- JohnDoe - JohnDoe - 0701234567
+
+- once you are done with the above step go back to your terminal, 
+- ensure that you have cd into the html-study-group directory already
+- then stage and commit your files like this
+``` 
+    git add *
+    git commit -m "commit message"
+ ```
+ where commit message could be anything to reflect the changes you did to the file, eg "i finished my week 1 assignment"
+ 
+ #### push
+ - so you will have to push your changes
+ by doing
+ ``` git push ```
+ 
+ ### Step 5
+ ##### create a pull Request
+ - inorder for the tutors to view and grade your submissions, you will have to create a pull request from the cohort2_beginners branch on your forked repo.
+ - there is a likely hood that after your push you will see a big brown button at the top of your forked repo with a compare and pull request button 
+ just click on it and it will take you directly to the create pull request view.
+ 
+ ![pull request](https://i.ibb.co/w05kddw/Screenshot-681.png "creating a pull request")
+ 
+ - incase you cant see this button on your repo dont panic.
+ 
+    ![pr_nobtn](https://i.ibb.co/6mLTzcX/Screenshot-679-LI.jpg "pull request no button")
+    
+ - (1) look at the left of your repo you will see a dropdown button with a text of master, click on it and switch to cohort2_beginners folder
+ 
+ - (2) then you will see create pull request as it is on the image below, click on it, it will also take you to the create pull request view
+ 
+ see image of the pull request view below
+ 
+ ![prview](https://i.ibb.co/8BcKDHM/Screenshot-682.png "pull request view")
+ 
+ - in the textbox write anything to reflect your assignment changes like what you did when you commited your assignment.
+ 
+ - at the bottom you will see a create pull request button click on it.
+
+
+
+
+
+
+
+
 
