@@ -4,12 +4,12 @@ body {
 }
 
 .container {
+  max-width: 360px;
   text-align: center;
   margin-top: 350px;
   padding: 10px 5px;
   background-color: #019fdd;
   border-radius: 5px;
-  width: 90%;
   margin-right: auto;
   margin-left: auto;
 }

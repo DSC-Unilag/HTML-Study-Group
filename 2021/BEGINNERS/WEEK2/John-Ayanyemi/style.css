@@ -1,4 +1,5 @@
 body {
+  height: 100vh;
   background-color: #000a3f;
   color: white;
   font-family: "Verdana", sans-serif;
@@ -8,7 +9,7 @@ h1 {
   color: #019fdd;
   margin-top: 60px;
   font-size: 50px;
-  width: 80%
+  max-width: 100%;
 }
 
 #header p {
@@ -17,15 +18,14 @@ h1 {
 }
 
 #header p, h1 {
-  text-align: left;
-  margin-left: 10px;
+  text-align: center;
 }
 
 #main {
   background: rgba(2, 157, 226, 0.2);
   border-radius: 10px;
-  width: 90%;
-  margin: 20px auto 10px auto;
+  width: 360px;
+  margin: 20px auto 30px auto;
   padding: 30px 15px 30px 20px;
   box-sizing: border-box;
 }
@@ -33,30 +33,40 @@ h1 {
 .circle {
   height: 200px;
   width: 200px;
-  background-color: rgba(2, 157, 226, 0.4);
   border-radius: 200px;
-  margin-left: 150px;
-  margin-top: -190px;
+  background-color: rgba(2, 157, 226, 0.4);
+  margin-top: -200px;
+  margin-left: 50%;
+  
 }
 
 label {
   font-size: 20px;
 }
 
-input {
+input, textarea {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-#fname, #nom, #email {
+#note1 {
+  font-family: inherit;
+  padding-top: 5px;
+  height: 150px;
+}
+
+#fname, #nom, #email, #note1 {
   width: 100%;
-  height: 40px;
   outline: none;
   border: none;
   border-radius: 5px;
   font-size: 20px;
   padding-left: 10px;
   box-sizing: border-box;
+}
+
+#fname, #nom, #email {
+  height: 40px;
 }
 
 #main input[type="submit"] {
@@ -68,18 +78,6 @@ input {
   background-color: #000a3f;
   color: white;
   margin: 10px 0 0 0;
-}
-
-#note1 {
-  height: 100px;
-  width: 100%;
-  border-radius: 5px;
-  outline: none;
-  border: none;
-  background-color: white;
-  padding-left: 10px;
-  font-size: 20px;
-  box-sizing: border-box;
 }
 
 #footer {
