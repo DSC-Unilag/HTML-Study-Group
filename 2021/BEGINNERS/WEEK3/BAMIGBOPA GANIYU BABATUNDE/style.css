@@ -1,0 +1,104 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-size: 10px;
+}
+
+body {
+    background-color: rgb(191, 199, 157);
+    background-position: 0 1000px;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    max-width:1100px;
+    margin:0 auto;
+    padding:0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+h1 {
+    color: #398f51;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
+h2{
+    color:#777;
+    font-size: 4rem;
+    font-weight: 400;
+}
+img{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+p{
+    font-size: 2rem;
+    color:#777;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+}
+
+a{
+    display: inline-block;
+    padding: 2.5rem 2.5rem;
+    margin-bottom: 100PX;
+    background: #f6f6f6;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #398f51;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+a:hover{
+    background: #dadada;
+}
+
+#text hr{
+    color: #ffffff;
+    
+}
+
+.nav{
+    margin-left: 10px;
+}
+
+#text h3{
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 10;
+    color: #777;
+}
+
+.profession ul li{
+    color: #fff;
+    font-size: 2rem;
+    line-height: 4rem;
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-top: 5px;
+    
+
+}
+
+.contacts li{
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 15;
+    padding-left: 10px;
+}
+
+.footer p{
+    margin-top: 500px;
+}
