@@ -1,0 +1,86 @@
+body {
+  height: 100vh;
+  background-color: #000a3f;
+  color: white;
+  font-family: "Verdana", sans-serif;
+}
+
+h1 {
+  color: #019fdd;
+  margin-top: 60px;
+  font-size: 50px;
+  max-width: 100%;
+}
+
+#header p {
+  margin-top: -25px;
+  margin-bottom: 30px;
+}
+
+#header p, h1 {
+  text-align: center;
+}
+
+#main {
+  background: rgba(2, 157, 226, 0.2);
+  border-radius: 10px;
+  width: 360px;
+  margin: 20px auto 30px auto;
+  padding: 30px 15px 30px 20px;
+  box-sizing: border-box;
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  background-color: rgba(2, 157, 226, 0.4);
+  margin-top: -200px;
+  margin-left: 50%;
+  
+}
+
+label {
+  font-size: 20px;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#note1 {
+  font-family: inherit;
+  padding-top: 5px;
+  height: 150px;
+}
+
+#fname, #nom, #email, #note1 {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+#fname, #nom, #email {
+  height: 40px;
+}
+
+#main input[type="submit"] {
+  width: 40%;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #000a3f;
+  color: white;
+  margin: 10px 0 0 0;
+}
+
+#footer {
+  text-align: center;
+}
+
