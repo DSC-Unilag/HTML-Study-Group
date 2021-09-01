@@ -1,0 +1,12 @@
+#mainone{
+    position: relative;
+}
+#maintwo{
+    position: sticky;
+}
+#mainthree{
+    position: relative;
+}
+#mainfour{
+    position: static;
+}

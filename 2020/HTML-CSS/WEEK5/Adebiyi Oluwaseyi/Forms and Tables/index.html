@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adebiyi Oluwaseyi(Forms and Table)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Adebiyi Oluwaseyi (Week 5)</h1>
+    <p><big style="color: black;"><b>Table</b></big></p> <br>
+    <table class="table" id="table">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Level</th>
+            <th>Department</th>
+        </tr>
+        <tr>
+            <td>David Luke</td>
+            <td>17</td>
+            <td>200</td>
+            <td>Biomedical Engineering</td>
+        </tr>
+        <tr>
+            <td>Anthony Eniola</td>
+            <td>20</td>
+            <td>400</td>
+            <td>Botany</td>
+        </tr>
+        <tr>
+            <td>Temi Abdul</td>
+            <td>20</td>
+            <td>300</td>
+            <td>Chemical Engineering</td>
+        </tr>
+        <tr>
+            <td>Philip Adeleke</td>
+            <td>18</td>
+            <td>200</td>
+            <td>Pharmacology</td>
+        </tr>
+        <tr>
+            <td>Nike Akintunde</td>
+            <td>16</td>
+            <td>Diploma</td>
+            <td>Computer Science</td>
+        </tr>
+    </table> <br> <br> <hr>
+
+    <br>
+    <p><big style="color: black;"><b>Form</b></big></p> <br>
+    <form action="">
+        <div class="name">
+            <label for="name">
+            Name
+                
+               <div class="reduce-space"><input type="text" id="name"  placeholder="Please enter your name"></div>
+            </label>
+        </div>
+        <div class="gender">
+            <legend class="gender-title">Gender</legend>
+            <label for="male">
+                <input type="radio" id="male" value="Male" name="gender" >
+            Male
+            </label>
+            <label for="female">
+                <input type="radio" id="female" value="Female" name="gender" checked>
+            Female
+            </label>
+        </div>
+        <div class="car">
+            <legend class="car-question">Do you drive a car?</legend>
+            <label for="car-yes">
+                <input type="radio" id="car-yes" value="Yes" name="car-question" >
+            Yes
+            </label>
+            <label for="car-no">
+                <input type="radio" id="car-no" value="No" name="car-question">
+            Nil
+            </label>
+        </div>
+        <div class="car-type">
+            <legend>If yes, which type(s)?</legend>
+            <label for="ferrari">
+                <input type="checkbox" id="ferrari" value="ferrari" name="car-question" >
+            Ferrari
+            </label>
+            <label for="toyota">
+                <input type="checkbox" id="toyota" value="toyota" name="car-question">
+            Toyota
+            </label>
+            <label for="honda">
+                <input type="checkbox" id="honda" value="honda" name="car-question">
+            Honda
+            </label>
+            <label for="other">
+                <input type="text" id="other" name="car-question" placeholder="please specify">
+            Other
+            </label>
+        </div> 
+        <button type="submit">
+            Submit
+        </button>
+
+       <!-- SELECT GENDER
+        <div class="gender">
+            <label for="Gender">
+                <select name="Gender" id="gender">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            Gender
+            </label>
+        </div> -->
+    </form>
+</body>
+</html>

@@ -1,0 +1,82 @@
+:root{
+    margin-left: 20px;
+    font-family: Poppins, 'Times New Roman', Times, serif;
+}
+
+
+/*---ANIMATIONS AND TRANSITIONS---*/
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.object{
+    width: 5em;
+    height: 5em;
+    background-color: blue;
+    margin: 100px;
+    border-radius: 10px;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-delay: 2ms;
+    animation-iteration-count: infinite;
+}
+@keyframes change{
+    50%{
+        background-color: green;
+        transform: scale(2)
+    }
+}
+.object-2{
+    width: 5em;
+    height: 5em;
+    background-color: blue;
+    margin: 100px;
+    border-radius: 10px;
+    transition: background-color 5s ease-out 2ms;
+}
+.object-2:hover{
+    background-color: green;
+    transform: scale(2);
+}
+/*---ANIMATIONS AND TRANSITIONS END---*/
+
+/*---GRID---*/
+
+.grid{
+    display: grid;
+    background-color: rgb(75, 51, 233);
+    height: 200px;
+    font-family: Poppins, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: black;
+    
+}
+.grid-item-1{
+    background-color: rgb(88, 240, 88);
+    grid-column: 1/span 9;
+    grid-row: 1/span 2;
+    
+}
+.grid-item-2{
+    background-color: rgb(222, 247, 4);
+    grid-column: 1/span 1;
+    grid-row: 3/ span 4 ;
+}
+
+.grid-item-3{
+    background-color: rgb(130, 6, 255);
+    grid-column: 2/span 7;
+    grid-row: 3/ span 4;
+}
+.grid-item-4{
+    background-color: rgb(248, 2, 195);
+    grid-column: 9/10;
+    grid-row: 3/ span 4;
+}
+.grid-item-5{
+    background-color: rgb(1, 177, 147);
+    grid-column: 1/span 9;
+    grid-row: 7/ span 1;
+}
+/*------GRID ENDS-----*/

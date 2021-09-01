@@ -1,71 +1,74 @@
-# FE-Study-Group
+# DSC UNILAG FRONT END STUDY GROUP
+# PART ONE
+## HOW TO SUBMIT TO THE REPO
+### i assume you know your way around the terminal, and that you've already installed git
+-  Login to your github account
+ - **FORK THE REPO**: at the top right of the repo, you will see three buttons; **watch**, **star**, and **fork**. click on fork see the image below
+ 
+ ![fork](https://i.ibb.co/9p4F7Ph/fork.jpg)
+ 
+ - a modal might pop up and you will be asked to choose an account to fork to, choose your github account, and then a copy of this repo will be created for you in your account.
+ - go to the copy that was created for you, look for a brown button with **code**, click on it, you will see a dropdown, copy the link in the dropdown
+ 
+ ![fork](https://i.ibb.co/8DKHgC7/image.png)
+ 
+ - open your terminal, go to the directory you want  your project to be eg `cd c:/user/myuser/documents/` this means i should navigate to my documents directory
+ - then type 
+   `git clone "paste the link you copied from your copy/version of this repo here"` eg 
+   `git clone https://github.com/ogheneovo12/HTML-Study-Group.git`
+ - if you open your file explorer, you will see the project folder in your directory, open it with the code editor of your choice, open the /2020 directory, then open the HTML-CSS di rectory (i.e /2020/HTML-CSS)
+ - you will see different folders in these format **WEEK1**, **WEEK2**, open the current assignment week eg **WEEK1**
+ - **CREATE A NEW BRANCH**: to create a new branch enter into your terminal `git branch WEEK1` (you are free to name that **WEEK1** anything)
+ - then enter `git checkout WEEK1` (replace **WEEK1** with whatever name you used in the previous step)
+ - create a new file/folder (this depends on the given assignment's instruction)
+ - your fullname should be the name of the file or folder
+ - do your assigmnet in the file or folder you created with your name, when you are done open your terminal and
+ - type `git add *`
+ - then type `git commit -m "submitting week 1 assignment, ogheneovo"` (you can type anything you want within the double quote, but let it reflect what you did)
+ - then enter `git push` in your repo, ensure you have internet
+ - once you are done, open your own version of this repo on github, you will see a big brown button at the top with a message of **COMPARE AND PULL REQUEST**, click on it, 
+ 
+ ![github pullrequest image](https://i.ytimg.com/vi/rgbCcBNZcdQ/maxresdefault.jpg)
+ 
+ - follow through till the pull request have been created. voilla that's all. see image below, it should be something like this
+ 
+ 
+ ![github pullrequest image](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/43040346998/original/Gw-I7-mlL6fioR5PPW_mHOx9KY67DDGQkA.png?1556061766)
+ 
+ 
+ # PART TWO
+### HOW TO SUBMIT FOR WEEK1 AND WEEK2(this is for those who already submitted earlier before this day 10/29/2020 10:40PM)
+ some changes were made to the repo after you submittted, you currently do not have them in your own version,
+ so i will take you through this guide on how you can update your version of this repo to our current version.
+ 
 
+- **COPY ORIGINAL REPO GIT URL**: at the top of this page you will see a brown button with text of **code** click it, a dropdown will open, copy the link in the dropdown (https://github.com/DSC-Unilag/HTML-Study-Group.git **this is the link copy it**) 
+- then in terminal enter `git remote add upstream https://github.com/DSC-Unilag/HTML-Study-Group.git`
+- then enter the following commands in your terminal
+- ```# Sync your fork
+  git fetch upstream
+  git checkout master
+  git merge upstream/master 
+  ```
+- then once you are done you will see two folders **WEEK1** and **WEEK2**, in /2020/HTML_CSS rename your assignments to your fullname and move them to their respective week folder,
+- commit your changes and then push
+- that should be all, if you encounter any issue, do well to ask on the whatsapp group chat and i would be glad to help
 
-# Week 1
-
-- Candidates with basic HTML and CSS should still focus on honing their skills in both technologies by building projects (doesn’t have to be some big)
-- Introduction to git 
-
-__Materials__: 
-- <a href='https://learn.freecodecamp.org/responsive-web-design/basic-html-and-html5'>Basic html</a>
-- <a href='https://learn.freecodecamp.org/responsive-web-design/basic-css'>Basic css</a>
-- <a href='https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners'>Basic git</a>
-
-
-__What to build__: A simple login page styled with CSS
-
-
-# Week 2
-
-- Semantics
-- Responsiveness
-
-__Materials__: 
-- <a href='https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-principles'>Responsive web design Principles</a>
-- <a href='https://learn.freecodecamp.org/responsive-web-design/css-flexbox'> css flexbox</a>
-- <a href='https://learn.freecodecamp.org/responsive-web-design/css-grid'>css grid</a>
-
-
-__What to build__: Clone the <a href='https://cdn.dribbble.com/users/757683/screenshots/6976861/downloads/Home_Style_02@1x.jpg'> Home Style Website</a> 
-
-
-# Week 3
-__What to learn__: 
-JavaScript is an integral part of web development and it is indispensable when it comes to front-end development. After attaining the necessary HTML and CSS skills, it’s time to learn JS, Understand the fundamentals of programming variable assignments, conditional statements, loops, different types of data types, arithmetic operations, what Es6 is.
-
-
-
-__Materials__: 
-- <a href='https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript'>Basic Javascript</a>
-- <a href='https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6'>Es6</a>
-
-__What to build__: A Javascript clock 
-
-
-
-# Week 4
-__What to learn__: 
-Dive into more advanced programming concepts like Regex, data structures, OOP, functional programming, and how to use the JS debugger, console for debugging.
-
-
-__Materials__: 
-- <a href='https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming'>fuctional programming</a>
-- <a href='https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/object-oriented-programming'>Object Oriented Programming</a>
-
-__What to build__:
-- To do list
-- Practice the following challenges:
- - <a href='https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting'>intermediate    algorithm scripting</a>
- - <a href='https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects'>javascript algorithms and data structures projects
-
-
-
-# Week 5
-__What to learn__: 
-Here a project would be built that involves everything learnt in the past weeks.
-
-__What to build__:
-- Github finder
-  
-
+ # PART THREE
+### HOW TO SUBMIT FOR WEEK4
+```
+  git fetch upstream
+  git checkout master
+  git merge upstream/master 
+  git branch week4
+  git checkout week4
+```
+- then once you are done you will see a folder **WEEK4** in /2020/HTML-CSS, rename your assignments to your fullname and move them to their respective week folder,
+- you will see a submission.md file, open and fill the information asked, which are your fullname, assignment file or foldername, and your phone number, follow the example given in the file
+- commit your changes and then push( to commit and push do this 
+```
+   git add *
+   git commit -m "submitted week4 assignments"
+```
+- that should be all, if you encounter any issue, do well to ask on the whatsapp group chat and i would be glad to help
 

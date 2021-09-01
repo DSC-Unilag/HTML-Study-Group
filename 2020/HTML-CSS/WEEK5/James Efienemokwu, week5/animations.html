@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes animate {
+            from{ background-color: blue;}
+            to{background-color: green;}
+
+            from{width: 100px;}
+            to{width: 200px;}
+
+            from{height: 100px;}
+            to{height: 200px;}
+        }
+        
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            animation-name: animate;
+            animation-duration: 5s;
+            animation-timing-function: ease-out;
+            animation-iteration-count: infinite;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="animate">
+
+    </div>
+</body>
+
+</html>

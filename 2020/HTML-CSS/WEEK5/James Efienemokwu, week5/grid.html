@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #container {
+        display: grid;
+    }
+
+    .item1 {
+        background-color: black;
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+
+    .item2 {
+        background-color: blue;
+        grid-column:1/1.5 ;
+        grid-row: 2/3;
+    }
+
+    .item3 {
+        background-color: blueviolet;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .item4 {
+        background-color: chartreuse;
+        grid-column: 3/3.5;
+        grid-row: 2/3;
+    }
+
+    .item5{
+        background-color: crimson;
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+</style>
+
+<body>
+    <div id="container">
+        <div class="item1">1</div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+    </div>
+</body>
+
+</html>

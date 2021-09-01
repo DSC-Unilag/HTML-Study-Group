@@ -1,0 +1,134 @@
+/*******
+Mobile Phone
+********/
+
+@media screen and (max-width: 767px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+/*******
+Tablet
+********/
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+       body {
+           background-color: gray;
+
+       }
+
+       .section1 {
+    
+        position: relative;
+        border: 1px solid black;
+        background-color: #333;
+        padding: 30px;
+        margin: 80px 2.5% 2px 2.5%;
+        width: 45%;
+        text-align: justify;
+        color: white;
+        float: left;
+    }
+    
+    .section2 {
+    
+        position: sticky;
+        border: 1px solid black;
+        background-color: #333;
+        padding: 30px;
+        margin: 80px 2.5% 2px 2.5%;
+        width: 45%;
+        text-align: justify;
+        color: white;
+        float: left;
+    }
+    
+    .section3 {
+    
+        position: relative;
+        border: 1px solid black;
+        background-color: #333;
+        padding: 30px;
+        margin: 80px 2.5% 2px 2.5%;
+        width: 45%;
+        text-align: justify;
+        color: white;
+        margin-bottom: 10px;
+        float: left;
+    }
+
+    .section4 {
+    
+        position: absolute;
+        left: 1000px;
+        border: 1px solid black;
+        background-color: #333;
+        padding: 30px;
+        margin: 80px 2.5% 2px 2.5%;
+        width: 45%;
+        text-align: justify;
+        color: white;
+        float: left;
+    }
+
+}
+
+/*******
+Laptop
+********/
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: #777;
+    }
+
+    .section1 {
+        position: static;
+        border: 1px solid black;
+        background-color: #333;
+        padding: 30px;
+        margin: 80px 1.25%;
+        width: 22.5%;
+        text-align: justify;
+        color: white;
+        margin-bottom: 10px;
+        float: left;
+    }
+
+    .section2 {
+        position: sticky;
+        border: 1px solid black;
+        background-color: #333;
+        padding: 30px;
+        margin: 80px 1.25%;
+        width: 22.5%;
+        text-align: justify;
+        color: white;
+        float:left;
+    }
+
+    .section3 {
+    
+        position: relative;
+        border: 1px solid black;
+        background-color: #333;
+        padding: 30px;
+        margin: 80px 1.25%;
+        width: 22.5%;
+        text-align: justify;
+        color: white;
+        float: left;
+    }
+
+   .section4 {
+        position: relative;
+        border: 1px solid black;
+        background-color: #333;
+        padding: 30px;
+        margin: 80px 1.25% 10px 1.25%;
+        width: 22.5%;
+        text-align: justify;
+        color: white;
+        float:left;
+    }   
+}

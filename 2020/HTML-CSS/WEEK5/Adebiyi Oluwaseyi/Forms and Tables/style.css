@@ -1,0 +1,41 @@
+:root{
+    font-size: 20px;
+    padding: 5px;
+}
+h1, p{
+    color: blue;
+    font-family: Poppins, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.table, td, th{
+    
+    border-color: black;
+    text-align: left;
+    border-style: solid;  
+    border-collapse: collapse;
+    padding: 2px 5px 2px 5px;
+}  
+
+form{
+    font-family: Poppins, 'Times New Roman', Times, serif;
+}
+div{
+    margin-top: 15px;
+}
+legend{
+    font-size: 12px;
+    padding: 5px;
+}
+.reduce-space{
+    margin-top: -1px !important;
+}
+button{
+    transform: scale(1.2);
+    margin-top: 15px;
+    margin-left: 5px;
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border-width: 0px;
+}

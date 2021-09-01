@@ -1,0 +1,44 @@
+body, caption{
+    background-color: azure;
+    text-transform: initial;
+    text-align: center;
+    color: rgba(243, 27, 20, 0.89);
+    }
+
+table, th, td {
+border: 2px solid rgb(231, 47, 47);
+border-collapse: collapse;
+margin-left: auto;
+margin-right: auto;
+background-color: blueviolet;
+color: antiquewhite;
+padding: 20px;
+width: 200px;
+}
+div
+{
+    border: 10px solid red;
+    padding: 10px;
+}
+.buyer{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: .5s;
+    margin-top: 40px;
+    letter-spacing: 4px;
+}
+footer {
+    padding: 1% 5%;
+    text-align:center;
+    background-color: #dd3b49;
+    color: wheat;
+}
+a {
+    color: wheat;
+    font-weight: 500;
+    text-decoration: none;
+    }

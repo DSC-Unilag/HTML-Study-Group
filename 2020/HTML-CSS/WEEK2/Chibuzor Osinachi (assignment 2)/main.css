@@ -1,0 +1,25 @@
+* {
+    margin:0;
+    padding:0;
+    background: gray;
+    
+
+}
+.logo {
+        background: aqua;
+        color:black;
+        text-align: center;
+        margin-bottom: 20px;
+        
+}
+#intro {
+        border: 5px;
+        margin-bottom: 20px;
+        text-align:center;
+        color:black;
+        background: aqua;
+        font-size: 1.25rem;
+}
+#end {
+        margin-bottom: 50px;
+}

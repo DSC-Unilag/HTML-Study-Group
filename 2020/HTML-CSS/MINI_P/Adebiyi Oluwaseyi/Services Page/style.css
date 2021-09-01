@@ -1,0 +1,135 @@
+:root{
+    font-family: Poppins, Raleway;
+    text-align: center;
+    margin: 20px;
+
+}
+/*BODY*/
+
+/*HEADER*/
+.header{
+    font-family: Poppins, Georgia, 'Times New Roman', Times, serif;
+    font-size: 270%;
+    padding: 1em;
+    text-align: center;
+    margin-top: 200px !important;
+}
+
+ul, li{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 1px;
+}
+
+/*----------------MEDIA QUERY (RESPONSIVENESS)---------*/
+
+@media (max-width : 800px){
+	ul, li{
+        list-style-type: none;
+        display:flex;
+        flex-direction: column;
+        margin:5px;
+        padding: 1px;
+    }
+} /*----MEDIA QUERY STOPS------*/
+
+
+.menu{
+    color: white;
+}
+.navbar{
+    text-align: left !important;
+    position: fixed;
+    background-color: rgb(43, 176, 253);
+    width: auto;
+    margin-left: 0rem !important;
+    margin-right: 300px;
+}
+.section-1{
+
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    margin: 0px !important;
+  }
+  
+ section{
+    padding: 2em;
+ }
+
+ /*----FIRST SECTION------*/
+ #section-1{
+     position: relative;
+     margin-bottom: 50px !important;
+     top: 0px;
+     bottom: 0px;
+     left: 0px;
+     right: 0px;
+     border-radius: 15px;
+ }      
+ #section-1:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+}
+ /*----STOP*/
+
+
+ /*----SECOND SECTION------*/
+#section-2{
+    position: relative;
+    margin-bottom: 50px !important;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border-radius: 15px;
+}
+#section-2:hover{
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19)
+}
+/*----STOP*/
+
+ /*----THIRD SECTION------*/
+#section-3{
+    position: relative;
+    margin-bottom: 50px !important;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border-radius: 15px;
+}
+#section-3:hover{
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19)
+}
+/*----STOP*/
+
+
+ /*----FOURTH SECTION------*/
+#section-4{
+    position: relative;
+    margin-bottom: 50px !important;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border-radius: 15px;
+}
+#section-4:hover{
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19)
+}
+/*----STOP*/
+
+   .intro{
+     font-size: 1.3em;
+     font-family: Raleway;
+ }
+
+ img{
+     width: 300px;
+ }

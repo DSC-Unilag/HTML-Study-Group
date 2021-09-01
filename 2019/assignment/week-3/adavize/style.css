@@ -1,0 +1,31 @@
+body {
+ min-height: 100vh;
+ width: 100%;
+ background-color: rgb(82, 78, 78);
+ display: flex;
+ align-items:flex-start;
+ flex-direction: row;
+ justify-content: center;
+}
+.content {
+background-color: white;
+width: fit-content;
+padding: 30px;
+margin-top: 40px;
+}
+
+h1 {
+ font-size: 30px;
+ color: rgb(46, 168, 35);
+}
+.time {
+ font-size: 38px;
+ margin-bottom: 10px;
+}
+.day {
+ font-size: 20px;
+}
+#dd {
+ font-size: 25px;
+ font-weight: bolder;
+}
